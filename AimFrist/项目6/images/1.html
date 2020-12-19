@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--表单-->
+    <form action="action.html" id="user_form" method="GET" target="_self">
+        first name:<input type="text" name="fname"><br>
+        <input type="submit" value="提交按钮">   
+    </form>
+    last name:<input type="text" name="lname" form="user_form"><br>
+
+    <!--单行文本框-->
+    请输入用户名：<input type="text" name="username" size="10" value="请输入" maxlength="5">
+    请输入密码：<input type="password" name="pwd" size="10" placeholder="请输入密码">
+    搜索栏：<input type="search" name="search" placeholder="推荐热词"><br>
+    
+    <!--多行文本框-->
+    <textarea name="ta" cols="15" rows="5" disabled>多行文本框</textarea><br>
+
+    <!--单选按钮-->
+    <p>请选择性别</p>
+    <input type="radio"name="sex" value="man">男
+    <input type="radio"name="sex" value="woman" id="r_woman">女
+    <label for="r_woamn">女</label>
+    <input type="radio"name="sex" value="unknonw" checked>保密
+
+    <!--复选框-->
+    <p>请选择喜欢的水果</p>
+    <label for="cb_apple">苹果</label>
+    <input type="checkbox" name="fruit" value="apple" id="cb_apple">
+    <label for="cb_apple">梨子</label>
+    <input type="checkbox" name="fruit" value="apple" id="cb_apple">
+    <label for="cb_apple">柠檬</label>
+    <input type="checkbox" name="fruit" value="apple" id="cb_apple">
+    <label for="cb_apple">香蕉</label>
+    <input type="checkbox" name="fruit" value="apple" id="cb_apple" checked>
+
+    <!--下拉框--><br>
+    <select name="select" id="select" size="14" multiple>
+        <option value="1981" selected>1981</option>
+        <option value="1982">1982</option>
+        <option value="1983">1983</option>
+        <option value="1984">1984</option>
+        <option value="1985">1985</option>
+    </select>
+
+    <!--按钮-->
+    <input type="submit">
+    <input type="reset">
+    <input type="button" value="普通按钮">
+
+</body>
+</html>
