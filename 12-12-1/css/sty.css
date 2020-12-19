@@ -1,0 +1,19 @@
+a,a:visited{
+    color:#36332e;
+    text-decoration: none;
+}
+a:hover,a:focus{
+    color:#BB0F73;   
+}
+a[ href = "www.baidu.com"]{
+    color: red;
+    font-weight: bold;
+}
+.nav > li{
+    list-style-type: none;
+    padding-left: 25px;
+    background-image: url(../imgs/wdate_bg.jpg);
+
+    background-repeat: no-repeat;
+    background-position: left top;
+}

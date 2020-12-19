@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>定位</title>
+<style type="text/css">
+	body{
+		font-size:62.5%;   /*浏览器默认16px,body的字号为10px，是1个em*/
+		text-align:center;  /*元素内容中间对齐。也就是容器中间布局。*/
+	}
+	.container{           /*容器，将两列元素框布局在这个容器中*/
+		width:92em;       /*宽度使用字体大小设置。*/
+		margin:0 auto;    /*浏览器自动计算外边距，单位默认为0px*/
+		max-width:95%;    /*限定容器最大宽度*/
+	}
+	.main{  
+		float:left;   /*元素框左浮动*/
+		width:75%;    /*宽度不固定，采用百分数。此处是占用容器大小的75%。*/
+		height:500px; /*高度固定为500px*/
+		background-color:red;
+	}
+	.sidebar{  
+	    float:right;   /*元素框右浮动*/
+		width:24%;     /*宽度不固定，采用百分数。此处是占用容器大小的24%。*/
+		height:500px;  /*高度固定为500px*/
+		background:green;		
+	}
+</style>
+</head>
+
+<body>
+<!--两列元素框布局在容器中，宽度之和小于等于容器宽度，按字体大小的弹性布局，两列元素框分别浮空在容器的左右两侧。
+    两列元素必须作为容器的两个子元素，这样才能布局在容器内-->
+<div class="container">
+	<div class="main"></div>   <!--不需要设置显示内容，只要显示出元素框即可-->
+    <div class="sidebar"></div>
+</div>
+
+</body>
+
+</html>

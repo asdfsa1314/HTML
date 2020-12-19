@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>定位</title>
+<style type="text/css">
+	.container{
+		border:1px dashed;
+		width:600px;
+		background-color:gray;		
+	}
+	.container img{  /*空格表示后者是前者的后代（即后代关系）。img元素 是 .container类指向的元素的后代（即子元素）。
+	                   div元素包含了img元素，因此imag元素是div元素的后代。*/
+		float:left;
+	}
+	.container p{  /*class属性为container的元素，且p元素又是该元素的子元素，那么这个元素被选择器选择。*/
+		width:330px;		
+	}	
+</style>
+</head>
+
+<body>
+
+<!--先常规流布局位置，图片左浮空，文本围绕图片-->
+<div class="container">
+	<img src="logo.png" alt="图像">
+    <p>Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.</p>
+</div>
+
+</body>
+
+</html>

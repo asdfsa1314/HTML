@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+p.key{
+	color:red;
+	}
+span:frist-child{/*选择什么样的元素*/
+	background-color:green;
+}

@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>定位</title>
+<style type="text/css">
+	.container{  /*类选择器*/
+		border:1px dashed;
+		width:600px;
+		background-color:gray;	
+		float:left;  /*浮动 包含内容的容器元素div，即设置div的互动属性。*/	
+	}
+	.container img{  /*空格表示后者是前者的后代（即后代关系）。img元素 是 .container类指向的元素的后代（即子元素）。
+	                   div元素包含了img元素，因此imag元素是div元素的后代。*/
+		float:left;
+	}
+	.container p{  /*class属性为container的元素，且p元素又是该元素的子元素，那么这个元素被选择器选择。*/
+		width:330px;
+		float:right;		
+	}	
+</style>
+</head>
+
+<body>
+
+<!--先常规流布局位置，图片左浮空，文本右浮空，导致div框不再占用空间-->
+<div class="container">
+	<img src="logo.png" alt="图像">
+    <p>Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.Some text.</p>
+</div>
+
+</body>
+
+</html>

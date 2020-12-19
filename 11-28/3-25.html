@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>定位</title>
+<style type="text/css">
+	.container{  /*容器，将两列元素框布局在这个容器中*/
+		width:950px;  /*宽度固定为950px >= 650px + 280px。两列元素框的总长度应该小于等于容器宽度。*/
+		margin:0 auto; /*浏览器自动计算外边距，单位默认为0px*/
+	}
+	.main{  
+		float:left;   /*元素框左浮动*/
+		width:650px;  /*宽度固定为650px*/
+		height:500px; /*高度固定为500px*/
+		background-color:red;
+	}
+	.sidebar{  
+	    float:right;   /*元素框右浮动*/
+		width:280px;   /*宽度固定为280px*/
+		height:500px;  /*高度固定为500px*/
+		background:green;		
+	}
+</style>
+</head>
+
+<body>
+<!--两列元素框布局在容器中，宽度之和小于等于容器宽度，两列元素框分别浮空在容器的左右两侧。
+    两列元素必须作为容器的两个子元素，这样才能布局在容器内-->
+<div class="container">
+	<div class="main"></div>   <!--不需要设置显示内容，只要显示出元素框即可-->
+    <div class="sidebar"></div>
+</div>
+
+</body>
+
+</html>

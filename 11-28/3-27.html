@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>定位</title>
+<style type="text/css">
+	.container{           /*容器，将两列元素框布局在这个容器中*/
+		width:100%;       /*宽度不固定，采用百分数。此处为占满整个浏览器窗口。*/
+		margin:0 auto;    /*浏览器自动计算外边距，单位默认为0px*/
+		max-width:100em;  /*限定容器最大宽度是100字体大小*/
+		min-width:40em;	  /*限定容器最小宽度是40字体大小*/	
+	}
+	.main{  
+		float:left;   /*元素框左浮动*/
+		width:75%;    /*宽度不固定，采用百分数。此处是占用容器大小的75%。*/
+		height:500px; /*高度固定为500px*/
+		background-color:red;
+	}
+	.sidebar{  
+	    float:right;   /*元素框右浮动*/
+		width:24%;     /*宽度不固定，采用百分数。此处是占用容器大小的24%。*/
+		height:500px;  /*高度固定为500px*/
+		background:green;		
+	}
+</style>
+</head>
+
+<body>
+<!--两列元素框布局在容器中，宽度之和小于等于容器宽度，按百分数的流式布局，两列元素框分别浮空在容器的左右两侧。
+    两列元素必须作为容器的两个子元素，这样才能布局在容器内-->
+<div class="container">
+	<div class="main"></div>   <!--不需要设置显示内容，只要显示出元素框即可-->
+    <div class="sidebar"></div>
+</div>
+
+</body>
+
+</html>

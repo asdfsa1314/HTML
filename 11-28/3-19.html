@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>定位</title>
+<style type="text/css">
+	.my_div1{
+		position:static;    
+		background-color:blue;
+		border:1px dashed;
+		height:100px;
+		width:300px;		
+	}
+	.my_div2{
+		float:left;         /*盒子2浮动在左边*/ 
+		background-color:red;
+		border:1px dashed;
+		height:100px;
+		width:300px;
+	}
+	.my_div3{
+		position:static;    /*盒子3会占据盒子2的位置，由于盒子2是浮空在左边，所以盒子3被遮盖*/         
+		background-color:#FF0;  /*黄色*/
+		border:1px dashed;
+		height:100px;
+		width:400px;
+	}
+	.my_div4{
+		float:right;    /*盒子4浮动在右边*/
+		background-color:green;
+		border:1px dashed;
+		height:100px;
+		width:300px;
+	}
+	.my_div5{
+		position:static;   /*盒子5会占据盒子4的位置，但由于盒子4是浮空在右边，所以盒子5不会被遮盖*/           
+		background-color:#FF0;  /*黄色*/
+		border:1px dashed;
+		height:100px;
+		width:300px;
+	}
+</style>
+</head>
+
+<body>
+
+<!--先常规流布局盒子位置，但盒子2和4浮动，脱离常规流-->
+<div class="my_div1">盒子1盒子1盒子1盒子1盒子1盒子1</div>
+<div class="my_div2">盒子2盒子2盒子2盒子2盒子2盒子2</div>
+<div class="my_div3">盒子3盒子3盒子3盒子3盒子3盒子3</div>
+<div class="my_div4">盒子4盒子4盒子4盒子4盒子4盒子4</div>
+<div class="my_div5">盒子5盒子5盒子5盒子5盒子5盒子5</div>
+
+</body>
+
+</html>

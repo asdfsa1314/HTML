@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>块级元素</title>
+<style type="text/css">
+	p{
+		display:inline;    /*将块级元素p设置为行内元素*/
+		color:#C60;       /*浅黄色*/		
+	}
+	span{
+		display:block;    /*将行级元素span设置为块元素显示*/
+		color:#906;       /*淡紫色*/
+	} 
+</style>
+</head>
+
+<body>
+<!--块级p变成了行内级，两段p之间没有换行了，变成同行显示-->
+<p>块级变行级第一行</p>
+<p>块级变行级第二行</p>
+
+<!--行级span变成了块级级，两span之间有换行了，变成不同行显示-->
+<span>行级变块级第一行</span>
+<span>行级变块级第二行</span>
+
+</body>
+</html>

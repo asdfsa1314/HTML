@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>定位</title>
+<style type="text/css">
+	.my_div1{
+		/*position:static;    /*position属性的默认值为static静态，因此可省略配置，static获得常规流布局位置*/
+		background-color:blue;
+		border:1px dashed;
+		height:100px;		
+	}
+	.my_div2{
+		position:relative;    /*相对定位，在常规流初始位置上进行移动*/
+		background-color:red;
+		border:1px dashed;
+		height:100px;
+		left:20px;     /*基于常规流位置（原点）左边留空20px（即右移20px）*/
+		top:20px;	   /*基于常规流位置（原点）顶部留空20px（即下移20px）*/
+	}
+	.my_div3{
+		/*position:static;    /*默认，常规流位置*/
+		background-color:green;
+		border:1px dashed;
+		height:100px;	
+	}
+</style>
+</head>
+
+<body>
+<!--先常规流布局盒子位置，盒子1和盒子3在原点位置，盒子2基于原点位置进行了移动；
+    盒子2原点位置仍然保留，不被其他常规流盒子占用。-->
+<div class="my_div1">盒子1盒子1盒子1盒子1盒子1盒子1</div>
+<div class="my_div2">盒子2盒子2盒子2盒子2盒子2盒子2</div>
+<div class="my_div3">盒子3盒子3盒子3盒子3盒子3盒子3</div>
+</body>
+
+</html>

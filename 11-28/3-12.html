@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>块级元素</title>
+<style type="text/css">
+	p{
+		height:100px;
+		width:100px;
+		padding:10px;
+		border:12px;
+		margin:22px;
+	}  /*装载p元素的CSS盒子规格：元素的内容是宽100px、高100px，内边距宽度10px,边框宽度12px，外边距宽度22px*/
+	span{
+		height:100px;
+		width:100px;
+		padding:10px;
+		border:12px;
+		margin:22px;
+	} /*装载span元素的CSS盒子规格：元素内容的宽和高无效，而是由内容的字体和长度决定；内边距上下无效、左右有效；边框宽度12px；外边距上下无效、左右有效。*/
+</style>
+</head>
+
+<body>
+  <p>CSS块级盒模型内容显示</p>     <!--css盒子的内容区域设置太小，无法一行装载元素内容显示，因此需要两行装载显示-->
+<span>CSS块级盒模型内容显示</span> <!--css盒子的内容区域设置无效，一行行内显示-->
+</body>
+</html>
