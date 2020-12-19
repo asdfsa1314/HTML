@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+body{
+    padding: 50px;
+    font: "微软雅黑",14px;
+    color: white;
+}
+.nav ul{
+    list-style-type: none;
+}
+a, a:visited{
+    color: white;
+    text-decoration: none;
+}
+.nav ul li {
+    line-height: 20px;
+    padding: 10px 20px;float: left;
+    background-image: url(../image/bg.png);
+    
+}
+
+.nav ul li a:hover{
+    background-image: url(../image/bg_hover.png);
+    display:block;
+    border-bottom:solid, 1px,#4d4945 ;
+    padding:10px 20px;
+}
+

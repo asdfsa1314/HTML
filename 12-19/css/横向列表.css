@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    padding: 50px;
+    font: "微软雅黑",14px;
+    color: #36332e;
+}
+.nav ul{
+    list-style-type: none;
+}
+a, a:visited{
+    color: #36332e;
+    text-decoration: none;
+}
+.nav ul li {
+    line-height: 40px;
+    padding: 10px 20px;
+    float: left;
+}
+.nav ul li a:hover{
+    padding: 6px;
+    border-bottom:solid, 2px,#4d4945 ;
+}
+.nav ul li ul{
+    width: 10em;
+    position: absolute;
+    left: -999em;
+}
+.nav ul li:hover ul li{
+    float:none;
+    padding: 0 0.2em;
+}
+/*在hover后面修饰的意思就是在鼠标悬停时显示和隐藏“下拉”菜单*/
+.nav ul li:hover ul li , .nav ul li:hover ul li a{
+    display: block;
+    padding: 0 0.2em;
+    line-height: 30px;
+    width: 9.6em;
+    color: #fff;
+    background: #4d4945;
+}
+.nav ul li:hover ul li a:hover{
+    border-bottom: none;
+    background: #404040;
+}
+.nav ul li:hover ul{
+    left:auto;
+    z-index: 9999;
+}

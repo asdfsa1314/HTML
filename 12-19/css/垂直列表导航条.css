@@ -1,0 +1,35 @@
+*{
+    /*边距清零*/
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+.nav{
+    /*这是自动选择的版本，爽*/
+    list-style-type: none;
+    border: 1px, #CCC, solid;
+}
+
+.nav li{
+    /*这是特别麻烦的版本，需要一个一个敲进去，其实能自动选择的*/
+    background-color: #E7E7E7;
+    border-top-width: 1px ;
+    border-top-style:solid ;
+    border-bottom-width:1px ;
+    border-top-color: #F9f9f9;
+    border-bottom-color:chartreuse ;
+    border-bottom-style:solid ;
+}
+
+.nav li a, .nav li a:visited{
+    font: "微软雅黑", 16px;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+.nav li a:hover{
+    background: #fff;
+}
+.nav .last{
+    border: none;
+}
