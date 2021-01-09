@@ -1,0 +1,2570 @@
+body {
+    background: #f9f9f9
+}
+
+
+/* .icoX,
+.icoClose,
+.ico_close {
+    background: url(http://img1.kaixin001.com.cn/i/ico/ico_close1.png ) no-repeat;
+    width: 13px;
+    height: 13px;
+    overflow: hidden
+}
+
+.icoX:hover,
+.icoClose:hover,
+.ico_close:hover {
+    background-position: 0 -13px
+} */
+
+#main {
+    width: 1004px;
+    background: #fdfdfd;
+    overflow: hidden;
+    border-right: 1px solid #d9dce2;
+    margin: 0 auto
+}
+
+#headIframe {
+    position: fixed;
+    _position: absolute
+}
+
+.kxLeftCol {
+    width: 140px
+}
+
+.kxLeftCol_user {
+    position: relative;
+    height: 86px;
+    padding: 20px 0 0px 10px;
+    border-bottom: 1px #f5f5f5 solid;
+    margin-bottom: 5px
+}
+
+.kxLeftCol_user .kxAvatar_50 {
+    float: left;
+    margin-right: 10px
+}
+
+.kxLeftCol_user p {
+    float: left;
+    font-size: 12px;
+    width: 65px;
+    font-weight: bold
+}
+
+.kxLeftCol_user .ico_status {
+    margin-top: -2px
+}
+
+.beautyAvatar {
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    background: url(http://img1.kaixin001.com.cn/i/set/avatar_beautify.gif) no-repeat
+}
+
+.homePublishBox {
+    width: 566px;
+    margin: 20px 0 15px 0;
+    position: relative;
+    z-index: 1000
+}
+
+.homePublishBox .pubIcon,
+.publishContentArrow,
+.publishFuncArrow,
+.ico_status,
+.publishFuncFace .publishFacePage a,
+.pubInsertPicture i,
+.appMenu .appsShow .bg,
+.publishFilmSearch b,
+.publishFilmCloseBox,
+.publishFilmListNav span a {
+    display: inline-block;
+    background-image: url(http://img1.kaixin001.com.cn/i/homenew/spt_homenew_07.png);
+    background-repeat: no-repeat
+}
+
+.ico_status {
+    overflow: hidden
+}
+
+.ico_status_online {
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+    background-position: 0 -100px
+}
+
+.ico_status_offline {
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+    background-position: -30px -100px
+}
+
+.ico_status_monline {
+    width: 7px;
+    height: 11px;
+    vertical-align: middle;
+    background-position: 0 -114px
+}
+
+.ico_status_moffline {
+    width: 7px;
+    height: 11px;
+    vertical-align: middle;
+    background-position: -15px -114px
+}
+
+.ico_status_busy {
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+    background-position: -15px -100px
+}
+
+.homePublishBox .kx_setPrivacy {
+    position: absolute;
+    right: 1px;
+    top: 10px;
+    width: 14px;
+    height: 11px;
+    margin: 0;
+    z-index: 100
+}
+
+.homePublishBox .kx_setPrivacy .kx_setPrivacyCurrent,
+.homePublishBox .kx_setPrivacy .kx_setPrivacyItem,
+.homePublishBox .kx_setPrivacy .kx_togglePrivacyList,
+.homePublishBox .kx_setPrivacy .kx_togglePrivacyListOff,
+.homePublishBox .kx_setPrivacyList li.current,
+.homePublishBox .kx_setPrivacy .arrowT {
+    background-image: url(http://img1.kaixin001.com.cn/i/homenew/setPrv_icon_03.png);
+    background-repeat: no-repeat
+}
+
+.homePublishBox .kx_setPrivacy .kx_setPrivacyCurrent,
+.homePublishBox .kx_setPrivacy .kx_setPrivacyItem,
+.homePublishBox .kx_setPrivacy .kx_togglePrivacyList,
+.homePublishBox .kx_setPrivacy .kx_togglePrivacyListOff {
+    width: 14px;
+    height: 12px;
+    margin-top: 0
+}
+
+.homePublishBox .kx_setPrivacy .kx_togglePrivacyList_public {
+    background-position: 4px -5px
+}
+
+.homePublishBox .kx_setPrivacy .kx_togglePrivacyList_friend {
+    background-position: 0 -46px
+}
+
+.homePublishBox .kx_setPrivacy .kx_togglePrivacyList_hidden {
+    background-position: 4px -26px
+}
+
+.homePublishBox .kx_setPrivacy .kx_setPrivacyList {
+    right: -11px;
+    top: 19px;
+    padding: 0;
+    width: 120px
+}
+
+.homePublishBox .kx_setPrivacy .arrowT {
+    background-position: 0 -120px;
+    width: 13px;
+    height: 7px;
+    overflow: hidden;
+    left: auto;
+    right: 8px;
+    top: -7px
+}
+
+.homePublishBox .kx_setPrivacyList ul {
+    padding: 4px 0
+}
+
+.homePublishBox .kx_setPrivacyList li {
+    padding-left: 33px;
+    margin: 0
+}
+
+.homePublishBox .kx_setPrivacyList li.current {
+    background-position: 11px -79px;
+    display: list-item
+}
+
+.homePublishBox .kx_setPrivacyList span {
+    height: 31px;
+    line-height: 31px;
+    *padding-right: 10px
+}
+
+.publishPrivacy_btn {}
+
+.publishTypeBox {
+    height: 26px;
+    padding-left: 5px
+}
+
+.publishTypeBox a {
+    width: 19px;
+    height: 17px;
+    vertical-align: top;
+    margin-right: 11px;
+    *margin-right: 9px;
+    _margin-right: 11px;
+    padding-right: 45px;
+    text-decoration: none
+}
+
+.publishTypeBox a i {
+    cursor: pointer;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 23px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #369
+}
+
+.publishType_records {
+    background-position: -475px -50px
+}
+
+.publishType_records_active {
+    background-position: -475px -75px
+}
+
+.publishType_photo {
+    background-position: -475px -100px
+}
+
+.publishType_photo_active {
+    background-position: -475px -125px
+}
+
+.publishType_mood {
+    background-position: -475px -150px
+}
+
+.publishType_mood_active {
+    background-position: -475px -175px
+}
+
+.publishContentArea {
+    border: 2px #a9b1c6 solid;
+    position: relative;
+    zoom: 1;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px
+}
+
+.publishContentArrow {
+    width: 9px;
+    height: 6px;
+    position: absolute;
+    top: -6px;
+    left: 3px;
+    background-position: 0 -50px
+}
+
+.publishContentRecords .publishContentArrow {
+    left: 7px
+}
+
+.publishContentPhoto {
+    padding: 2px
+}
+
+.publishContentPhoto .publishContentArrow {
+    left: 83px
+}
+
+.publishContentPhoto .publishUploadSteps_select {
+    height: 94px
+}
+
+.publishContentPhoto .publishUploadSteps_select a {
+    height: 94px;
+    line-height: 94px;
+    width: 274px
+}
+
+.publishContentPhoto .publishUploadSteps_select span {
+    height: 94px
+}
+
+.publishContentMood .publishContentArrow {
+    left: 166px
+}
+
+.publishContentBox {
+    margin: 2px 5px;
+    background: #fff
+}
+
+.publishContentBox textarea {
+    width: 100%;
+    background: #fff;
+    border: none;
+    resize: none;
+    outline: none;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+    padding: 3px 0;
+    overflow: hidden;
+    height: 70px;
+    overflow-y: auto
+}
+
+.publishContentBox textarea.unfocus {
+    color: #ccc
+}
+
+.publishContentBox textarea.unfocus::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+    color: #ccc
+}
+
+.publishBtnBox {
+    height: 38px;
+    background: #fafafa;
+    border-top: 1px #eee solid;
+    position: relative
+}
+
+.publishInsertBtn {
+    float: left;
+    margin: 7px 0 0 10px;
+    _display: inline;
+    color: #999
+}
+
+.publishInsertBtn .pubIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px
+}
+
+.pubInsertFace {
+    background-position: -75px 0
+}
+
+.pubInsertFace:hover,
+.pubInsertFace_active {
+    background-position: -75px -25px
+}
+
+.pubInsertPicture {
+    background-position: -100px 0
+}
+
+.pubInsertPicture:hover,
+.pubInsertPicture_active {
+    background-position: -100px -25px
+}
+
+.pubInsertPicture i {
+    position: absolute;
+    width: 21px;
+    height: 9px;
+    background-position: -175px -50px;
+    margin: 10px 0 0 10px
+}
+
+.pubInsertVideo {
+    background-position: -125px 0
+}
+
+.pubInsertVideo:hover,
+.pubInsertVideo_active {
+    background-position: -125px -25px
+}
+
+.publishSubmit {
+    float: right;
+    margin: 4px 10px 0 0
+}
+
+.publishSubmit .kxbtn {
+    vertical-align: middle
+}
+
+.publishSubmit label {
+    color: #999;
+    margin-right: 5px;
+    *display: inline-block;
+    *vertical-align: middle;
+    *margin-top: -3px
+}
+
+.publishSubmitTips {
+    display: inline-block;
+    width: 0;
+    height: 25px;
+    position: relative;
+    vertical-align: top
+}
+
+.publishSubmitTips .remind,
+.publishSubmitTips .error {
+    position: absolute;
+    white-space: nowrap;
+    padding: 0 15px;
+    right: 0;
+    height: 27px;
+    line-height: 27px;
+    font-weight: 400
+}
+
+.publishSubmitTips .error {
+    border: 1px #ffb7b7 solid;
+    background: #ffe5e5;
+    color: #dd4b39
+}
+
+.publishSubmitTips .remind {
+    border: 1px #c1c1c1 solid;
+    background: #efefef;
+    color: #666
+}
+
+.publishFuncArea {
+    height: 0;
+    overflow: hidden
+}
+
+.publishFuncBox {
+    border: 1px #cecece solid;
+    background: #fff;
+    min-height: 80px;
+    position: absolute;
+    width: 560px;
+    margin-top: -2px;
+    margin-left: 0;
+    padding: 2px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -o-border-radius: 1px;
+    -ms-border-radius: 1px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+    -o-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+    -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16)
+}
+
+.publishFuncArrow {
+    width: 11px;
+    height: 7px;
+    position: absolute;
+    top: -7px;
+    left: 16px;
+    background-position: 0 -68px
+}
+
+.publishFuncFace .publishFuncArrow {
+    left: 17px
+}
+
+.publishFuncFace .publishFacePage {
+    float: right;
+    clear: right;
+    width: 42px;
+    height: 19px;
+    overflow: hidden;
+    padding-left: 1px
+}
+
+.publishFuncFace .publishFacePage a {
+    float: left;
+    width: 22px;
+    height: 19px;
+    margin-left: -1px
+}
+
+.publishFuncFace .publishFacePage .publishFacePagePrev {
+    background-position: -150px 0
+}
+
+.publishFuncFace .publishFacePage .publishFacePagePrev_dis {
+    background-position: -150px -25px;
+    cursor: default
+}
+
+.publishFuncFace .publishFacePage .publishFacePageNext {
+    background-position: -175px 0
+}
+
+.publishFuncFace .publishFacePage .publishFacePageNext_dis {
+    background-position: -175px -25px;
+    cursor: default
+}
+
+.publishFuncPicture .publishFuncArrow {
+    left: 49px
+}
+
+.publishFuncVideo .publishFuncArrow {
+    left: 81px
+}
+
+.publishUpload {
+    width: 560px;
+    overflow: hidden
+}
+
+.publishUploadSteps_select {
+    white-space: nowrap;
+    position: relative
+}
+
+.publishUploadSteps_select object {
+    float: left
+}
+
+.publishUploadSteps_select a {
+    float: left;
+    text-align: center;
+    width: 275px;
+    height: 94px;
+    line-height: 94px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #369
+}
+
+.publishUploadSteps_select a:hover {
+    color: #36c;
+    background: #f9f9f9
+}
+
+.publishUploadSteps_select span {
+    float: left;
+    width: 1px;
+    height: 94px;
+    overflow: hidden;
+    background: #ecedf0;
+    margin: 0 2px;
+    _display: inline
+}
+
+.publishUploadSteps_picture a {
+    width: 183px
+}
+
+.publishUploadSteps_picture a.publishUpload_btnPics {
+    background: #fdffcf
+}
+
+.publishUploadSteps_picture a.publishUpload_btnPics:hover {
+    background: #f9f9f9
+}
+
+.publishUploadSteps_url {
+    text-align: center;
+    padding-top: 38px;
+    min-height: 70px;
+    _height: 70px;
+    position: relative;
+    zoom: 1
+}
+
+.publishUploadSteps_url .kxbtn,
+.publishUploadSteps_url .kxInputText {
+    vertical-align: top
+}
+
+.publishUploadSteps_url .kxInputText {
+    *margin-top: -1px;
+    width: 400px;
+    margin-right: 3px;
+    font-size: 14px
+}
+
+.publishUpload_reSelect {
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    background: url(http://img1.kaixin001.com.cn/i/homenew/back-reselect.png) no-repeat;
+    width: 11px;
+    height: 100px
+}
+
+.publishUploadSteps_loading {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #999
+}
+
+.publishUploadSteps_done {
+    padding: 15px
+}
+
+.publishUploadDonePic {
+    float: left;
+    margin-right: 20px;
+    margin-top: -2px;
+    min-height: 60px;
+    _height: 60px
+}
+
+.publishUploadDonePic img {
+    padding: 1px;
+    border: 1px #d9dce2 solid;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -o-border-radius: 1px;
+    -ms-border-radius: 1px
+}
+
+.publishUploadDoneVideo {
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    zoom: 1
+}
+
+.publishUploadDoneVideo .ico_videoPlay {
+    position: absolute;
+    left: 4px;
+    bottom: 5px
+}
+
+.publishPrevRecord .pieceforward,
+.publishPrevRecord .publishRecordDate {
+    vertical-align: middle
+}
+
+.publishPrevRecord {
+    padding: 2px 2px 5px 8px;
+    color: #666;
+    background: #FBFBFB
+}
+
+.publishPrevRecord img {
+    margin-top: 2px;
+    margin-top: 3px\9;
+    *margin-top: 0px;
+    position: static
+}
+
+.publishPrevRecord .pieceforward img {
+    margin-top: -2px
+}
+
+.publishPrevRecord .publishRecordDate {
+    text-decoration: none;
+    font-style: italic;
+    margin-left: 5px;
+    color: #B2BACE;
+    font-size: 10px;
+    -webkit-text-size-adjust: none
+}
+
+.publishPrevRecord .publishRecordDate:hover {
+    color: #B2BACE
+}
+
+.mr8 {
+    margin-right: 8px
+}
+
+.ml8 {
+    margin-left: 8px
+}
+
+.mt2 {
+    margin-top: 2px
+}
+
+.publishContentFilm .publishContentArrow {
+    left: 243px
+}
+
+.publishContentFilm .publishContentBox {
+    margin: 0
+}
+
+.publishContent_bor_b {
+    border-top: solid 1px #eee;
+    height: 1px;
+    line-height: 1px;
+    font-size: 1px;
+    overflow: hidden
+}
+
+.publishType_film {
+    background-position: -475px -200px
+}
+
+.publishType_film_active {
+    background-position: -475px -225px
+}
+
+.publishFilmDetail {
+    margin: 10px;
+    padding-bottom: 5px
+}
+
+.publishFilmSearch {
+    border: solid 1px #e8e8e8;
+    width: 418px;
+    height: 27px;
+    margin-bottom: 12px;
+    border-radius: 1px;
+    background: #fff;
+    zoom: 1;
+    overflow: hidden
+}
+
+.publishFilmSearch input {
+    width: 385px;
+    font-size: 14px;
+    padding: 6px 5px 3px 5px;
+    border: none;
+    resize: none;
+    outline: none;
+    float: left;
+    background: #fff
+}
+
+.publishFilmSearch b {
+    float: right;
+    width: 21px;
+    height: 27px;
+    cursor: pointer;
+    background-position: -100px -50px;
+    text-indent: -9999px
+}
+
+.publishFilmSearch.active {
+    border: 1px #b5b5b5 solid
+}
+
+.publishFilmSearch.active input {
+    color: #000
+}
+
+.publishFilmSearchList {
+    height: auto;
+    border: solid 1px #b5b5b5;
+    border-top: none;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    width: 418px;
+    background: white;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, .01), -1px 0 3px rgba(0, 0, 0, .01), 0px 1px 3px rgba(0, 0, 0, .2);
+    z-index: 10;
+    padding-top: 4px;
+    overflow: hidden
+}
+
+.publishFilmSearchList dl {
+    height: 60px;
+    overflow: hidden;
+    padding: 8px 10px 8px 10px;
+    border-bottom: dotted 1px #e5e5e5;
+    margin-bottom: -1px;
+    cursor: pointer;
+    clear: both
+}
+
+.publishFilmSearchList .FilmSearch_bg_hover {
+    background: #f7f7f7
+}
+
+.publishFilmSearchList dt,
+.publishFilmSearchList dd {
+    float: left
+}
+
+.publishFilmSearchList dt {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden
+}
+
+.publishFilmSearchList dt img {
+    width: 60px;
+    height: 60px
+}
+
+.publishFilmSearchList dd {
+    width: 315px;
+    overflow: hidden
+}
+
+.publishFilmSearchList dd h3 {
+    font-weight: normal
+}
+
+.publishFilmSearchList dd h3 a {
+    display: inline-block;
+    margin: 0 10px 0 5px
+}
+
+.publishFilmSearchList dd p {
+    height: 40px;
+    overflow: hidden
+}
+
+.publishFilmSearchList dd i {
+    font-style: normal;
+    color: #666
+}
+
+.publishFilmDetail .feedItem_film_info dt {
+    overflow: hidden;
+    clear: both;
+    font-size: 14px
+}
+
+.lookFilmDetail {
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 5px
+}
+
+.publishFilmDetail .kx_lr,
+.publishFilmDetail .feedItem_film {
+    zoom: 1;
+    position: relative
+}
+
+.publishFilmDetail .feedItem_film .feedItem_film_info {
+    height: 108px;
+    width: 400px;
+    overflow: hidden
+}
+
+.publishFilmCloseBox {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: -1px;
+    width: 13px;
+    height: 13px;
+    background-position: -125px -50px;
+    text-indent: -9999px
+}
+
+.publishFilmList {
+    zoom: 1;
+    position: relative
+}
+
+.publishFilmListNav a {
+    float: left;
+    margin-right: 15px;
+    height: 17px;
+    padding-bottom: 2px;
+    color: #369;
+    text-decoration: none
+}
+
+.publishFilmListNav a.active {
+    border: none;
+    border-bottom: 3px #dbe3f0 solid;
+    color: #333;
+    text-decoration: none
+}
+
+.publishFilmListNav span a {
+    margin-right: 0;
+    background-position: -150px -44px;
+    _background-position: -150px -46px;
+    padding-left: 16px;
+    color: #369;
+    text-decoration: none
+}
+
+.publishFilmList {
+    width: 542px;
+    overflow: hidden
+}
+
+.publishFilmListCont {
+    width: 550px;
+    height: 130px
+}
+
+.publishFilmListCont li {
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-right: 7px;
+    position: relative
+}
+
+.publishFilmListCont li a {
+    width: 130px;
+    height: 130px;
+    display: block
+}
+
+.publishFilmListCont li a.FilmLImgBor {
+    width: 128px;
+    height: 128px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+    border: 1px solid black
+}
+
+.publishFilmName {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    overflow: hidden;
+    zoom: 1
+}
+
+.publishFilmName span {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    background: #000;
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+.publishFilmName b {
+    color: white;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+    height: 30px;
+    overflow: hidden
+}
+
+.star_bg_s,
+.star_s {
+    background: url(http://img1.kaixin001.com.cn/i/movie/part_bg.gif) no-repeat left -15px;
+    height: 15px;
+    overflow: hidden;
+    width: 80px;
+    margin-top: 6px;
+    float: left
+}
+
+.star_bg_s,
+.star_s {
+    background-position: left -42px;
+    width: 65px;
+    height: 12px;
+    margin-top: 0px
+}
+
+.star_s {
+    background-position: left -30px;
+    margin-top: 0px
+}
+
+.starPointBox {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ff3333
+}
+
+.starPointBox2 {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999
+}
+
+.feedItem_film_info dd .stars {
+    position: relative;
+    top: 3px;
+    *display: inline;
+    *top: 5px
+}
+
+.pubMoodIco {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    padding-top: 3px;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer
+}
+
+.pubMoodIco b {
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    height: 38px;
+    left: 0;
+    top: 0;
+    background: url(http://img1.kaixin001.com.cn/i3/records/moodcurve/moodbg1.png) no-repeat;
+    display: none
+}
+
+.pubMoodIco_hover b {
+    display: block;
+    background-position: -40px 0
+}
+
+.pubMoodIco_on b {
+    display: block;
+    background-position: 0 0
+}
+
+.pubMood .pubMoodIco {
+    margin-right: 10px
+}
+
+.pubMood .checkbox {
+    width: 12px;
+    height: 13px
+}
+
+.frameBtn .errTip {
+    position: absolute;
+    height: 0;
+    top: 7px;
+    right: 85px;
+    z-index: 10;
+    *right: 90px
+}
+
+.frameBtn .errTip div {
+    float: right;
+    height: 23px;
+    background: #ddd
+}
+
+.frameBtn .errTip div p {
+    padding: 0 10px 0 5px;
+    height: 21px;
+    line-height: 21px;
+    line-height: 23px\9;
+    _line-height: 21px;
+    line-height: 25px\0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    color: #cd0000;
+    border: 1px solid #e09c9b;
+    background: #feeae9;
+    top: -1px;
+    left: -1px
+}
+
+.frameBtn .errTip div b {
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    top: 6px;
+    right: -5px;
+    background-position: -60px -240px;
+    z-index: 10
+}
+
+.frameBtn {
+    height: 29px;
+    padding-top: 6px;
+    background: #fbfbfb;
+    border-top: 1px #f0f0f0 solid;
+    text-align: right;
+    padding-right: 6px;
+    position: relative
+}
+
+.frameBtn label.pr10 {
+    padding-top: 2px
+}
+
+.frameBtn label.pr10 .checkbox {
+    margin-top: -2px;
+    margin-right: 5px;
+    width: 12px;
+    height: 13px;
+    padding: 0;
+    *margin-top: 0
+}
+
+.letterTip {
+    position: absolute;
+    right: 85px;
+    top: 8px;
+    background: #e6e6e6
+}
+
+.letterTip div {
+    position: relative;
+    font-style: normal;
+    display: inline-block;
+    padding: 1px 11px;
+    border: 1px #c1c1c1 solid;
+    left: -1px;
+    top: -1px;
+    background: #efefef;
+    color: #666
+}
+
+.letterTip div strong {
+    margin: 0 2px
+}
+
+.pubMoodIcos {
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 4px;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer
+}
+
+.pubMoodIcos b {
+    position: absolute;
+    z-index: 10;
+    width: 28px;
+    height: 31px;
+    left: 0;
+    top: 0;
+    background: url(http://img1.kaixin001.com.cn/i3/records/moodcurve/moodbg.png) no-repeat;
+    display: none
+}
+
+.pubMoodIcos_hover b {
+    display: block;
+    background-position: 0 -80px
+}
+
+.pubMoodIcos_on b {
+    display: block;
+    background-position: 0 -45px
+}
+
+.viewMood {
+    margin-left: 14px
+}
+
+.pubMoodLabel {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -6px;
+    margin-top: 0\9
+}
+
+.viewMood .pubMoodIcos {
+    margin-left: 5px
+}
+
+.pubMood .textarea {
+    width: 460px;
+    height: 40px;
+    border: 1px #dedede solid;
+    background: #fff;
+    resize: none;
+    vertical-align: top;
+    overflow: auto;
+    outline: none
+}
+
+.viewMoodCtrl {
+    margin-top: 5px;
+    width: 390px
+}
+
+.viewMoodCtrl .kx_slidedot i {
+    margin-left: 6px
+}
+
+#pubMoodIcosAll {
+    width: 35px;
+    text-align: center;
+    padding-left: 0;
+    line-height: 23px\9
+}
+
+#pubMoodIcosAll.pubMoodIcos_hover b {
+    background-position: -29px -80px;
+    width: 35px
+}
+
+#pubMoodIcosAll b {
+    background-position: -29px -45px;
+    width: 35px
+}
+
+#pubMoodIcosAll em {
+    zoom: 1;
+    font-style: normal
+}
+
+.publishMoodCurve .pubMood {
+    padding: 15px 10px 15px 15px
+}
+
+.publishMoodCurve .publishSubmit .kxbtn_gray_s {
+    vertical-align: top
+}
+
+.appMenu {
+    padding: 1px 0 0
+}
+
+.appMenu .appType {
+    padding: 3px 0 5px 5px;
+    font-size: 12px;
+    color: #333
+}
+
+.appMenu ul {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eee;
+    zoom: 1
+}
+
+.appMenu ul:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+
+.appMenu li {
+    height: 24px;
+    overflow: hidden;
+    float: left;
+    width: 132px;
+    padding: 3px 8px 0 0;
+    *height: 22px;
+    list-style: none
+}
+
+.appMenu li.over {
+    background-color: #f5f5f5
+}
+
+.appMenu .appsBox {
+    position: absolute;
+    height: 257px;
+    top: -308px;
+    left: 30px
+}
+
+.appMenu li a.app_l_sp {
+    margin-left: 8px;
+    color: #333;
+    padding-left: 25px
+}
+
+.appMenu li a.rtfunc {
+    *margin-top: -19px;
+    color: #d8dfea
+}
+
+.appMenu li.over a.rtfunc,
+.appMenu li a.rtfunc:hover {
+    color: #c1ccdc
+}
+
+.appMenu .ntc,
+.appMenu .ntc b {
+    background: #D8DFEA;
+    height: 15px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -o-border-radius: 1px;
+    -ms-border-radius: 1px
+}
+
+.appMenu .ntc {
+    padding-right: 4px;
+    margin-top: 1px
+}
+
+.appMenu .ntc b {
+    color: #3B5998;
+    font-weight: bold;
+    padding-left: 4px;
+    line-height: 15px;
+    line-height: 14px\9;
+    *line-height: 12px;
+    font-family: tahoma
+}
+
+.appMenu .appsShow {
+    left: 71px
+}
+
+.appMenu .appsShow .bg,
+.appMenu .appsBox_r3 .appsShow .bg,
+.appMenu .appsBox_r2 .appsShow .bg,
+.appMenu .appsBox_r1 .appsShow .bg {
+    display: block;
+    width: 8px;
+    height: 13px;
+    overflow: hidden;
+    left: -7px;
+    bottom: 17px;
+    top: auto;
+    z-index: 1000;
+    opacity: 1;
+    filter: alpha(opacity=1);
+    *filter: none;
+    background-color: transparent;
+    background-position: -50px -50px
+}
+
+.appMenu .more_row {
+    display: none
+}
+
+.appMenu .appsShow {
+    height: 347px;
+    width: 524px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3)
+}
+
+.appMenu .appsShow .con {
+    left: 0;
+    top: 0;
+    height: 327px;
+    padding: 14px 4px 4px 10px;
+    width: 508px
+}
+
+.appMenu .appsShow .con .appswarp {
+    width: 508px
+}
+
+.appMenu .apps_column {
+    height: 290px;
+    width: 127px
+}
+
+.appMenu .appsShow iframe {
+    height: 347px;
+    width: 524px
+}
+
+.appMenu .appsBox_r3 .appsShow,
+.appMenu .appsBox_r3 .appsShow iframe {
+    width: 406px;
+    height: 347px
+}
+
+.appMenu .appsBox_r2 .appsShow,
+.appMenu .appsBox_r2 .appsShow iframe {
+    width: 274px;
+    height: 347px
+}
+
+.appMenu .appsBox_r1 .appsShow,
+.appMenu .appsBox_r1 .appsShow iframe {
+    width: 148px;
+    height: 347px
+}
+
+.appMenu li .appsShow li {
+    width: 100%;
+    height: 24px;
+    padding: 3px 0 0 0;
+    margin-bottom: 1px
+}
+
+.appsShow .addappbtn {
+    bottom: 10px;
+    z-index: 99;
+    right: 20px
+}
+
+.appsShow .line {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    left: 0;
+    background: #FAFAFA;
+    border-top: 1px #EEE solid;
+    z-index: 1
+}
+
+.appsBox .appsShow h3 {
+    position: relative;
+    z-index: 90;
+    padding-top: 10px
+}
+
+.appMenu li.show_moreapp {
+    z-index: 9999
+}
+
+.appMenu li.show_moreapp a.hmore,
+.appMenu .more_row .smore a {
+    margin-left: 33px
+}
+
+.appMenu .appsShow .appclose {
+    display: none
+}
+
+.appMenu li.show_moreapp a.hmore,
+.appMenu .more_row .smore a {
+    background: url(http://img1.kaixin001.com.cn/i/homenew/arrow_moreapp.png) no-repeat 100% 7px;
+    padding-right: 8px
+}
+
+.homeTaLeft .appMenu li {
+    width: 100%;
+    padding-right: 0
+}
+
+.appMenu .apps_rcmTa {
+    margin: 0 0 5px
+}
+
+.appMenu .apps_rcmTa li a.app_l_sp {
+    margin-left: 8px
+}
+
+.appMenu li.show_moreapp a.hmoreBasic {
+    background: url(http://img1.kaixin001.com.cn/i/homenew/arrow_vertical.png) no-repeat right -39px;
+    padding-right: 11px
+}
+
+.appMenu li.show_moreapp a.hmoreBasic_hide {
+    background: url(http://img1.kaixin001.com.cn/i/homenew/arrow_vertical.png) no-repeat right -59px;
+    padding-right: 11px
+}
+
+.kxContentCol {
+    border-left: 1px #d9dce2 solid;
+    border-bottom: 1px solid #d9dce2;
+    border-top: none;
+    min-height: 1250px;
+    _height: 1250px
+}
+
+.kxContentCol .kxContentCol {
+    margin: 0;
+    border: none;
+    float: none;
+    width: auto
+}
+
+.kxContentCol_home {
+    background: #fff
+}
+
+.kxContentCol #r2_2,
+.kxContentCol #r2_2n {
+    min-height: 1300px;
+    _height: 1300px
+}
+
+.kxMainWrap .kxContentCol #middle-part.srl {
+    float: left;
+    width: 566px;
+    padding: 0 15px 0 20px;
+    background: #fff;
+    border-right: none
+}
+
+.srr {
+    float: right
+}
+
+#newMyHomeRightArea {
+    width: 251px;
+    padding-top: 46px
+}
+
+.homeSideBox_hd {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #e2e2e2;
+    background: #f5f5f5;
+    overflow: hidden
+}
+
+.homeSideBox_hdIn {
+    border: none;
+    padding: 1px 6px 0;
+    cursor: default
+}
+
+.homeSideVisitor .ele_slide_wrap {
+    width: 241px
+}
+
+.homeSideFriend #homeflist,
+.homeSideVisitor li {
+    min-height: 80px;
+    _height: 80px;
+    width: 241px;
+    padding: 0 5px
+}
+
+.homeSideVisitorList {}
+
+.homeFriendItem {
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+    min-height: 80px;
+    _height: 80px
+}
+
+.homeFriendItem p {
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin-top: 3px
+}
+
+.homeFriendItem p .ico_status {
+    margin-top: -3px
+}
+
+#calendar_box {
+    width: auto;
+    margin: 0 auto 20px
+}
+
+#calendarApp {
+    border: none;
+    background: none
+}
+
+.weatherCg {
+    border: none;
+    margin: 0;
+    padding: 4px 5px 0
+}
+
+#calendar_remind li {
+    margin: 0;
+    padding: 6px 5px;
+    border-bottom: 1px dotted #DDD
+}
+
+.calendar2_bg_o .dele,
+.calendar2_bg_c .dele {
+    top: 8px;
+    right: 5px
+}
+
+.homeSideActivity {
+    padding: 8px 0 15px 6px
+}
+
+.homeSideActivity li {
+    height: 24px;
+    line-height: 24px
+}
+
+.homeSideActivity li a {
+    text-decoration: none;
+    color: #369
+}
+
+.homeSideActivity li a:hover {
+    text-decoration: underline;
+    color: #36c
+}
+
+.kx_newsHd .set_act {
+    margin-right: 3px
+}
+
+.kx_newstabs li.dt_tab_on span {
+    line-height: 30px
+}
+
+.actPic {
+    padding-top: 10px
+}
+
+.h_more {
+    background-position: -50px 0;
+    width: 22px;
+    height: 13px
+}
+
+.h_arrow {
+    background-position: -250px 0;
+    width: 9px;
+    height: 6px
+}
+
+.h_add {
+    background-position: -100px -25px;
+    width: 9px;
+    height: 9px
+}
+
+#newMyHomeRightArea .kxSlidebtn {
+    width: 44px;
+    height: 13px
+}
+
+#newMyHomeRightArea .kxSlidebtn span {
+    background: url(http://img1.kaixin001.com.cn/i/homenew/spr_homeright-1.png) no-repeat;
+    width: 21px;
+    height: 13px;
+    margin-left: 1px
+}
+
+#newMyHomeRightArea .kxSlidebtn .kxSlideprev {
+    background-position: 0 0
+}
+
+#newMyHomeRightArea .kxSlidebtn .kxSlideprev_dis {
+    background-position: 0px -25px
+}
+
+#newMyHomeRightArea .kxSlidebtn .kxSlidenext {
+    background-position: -25px 0px
+}
+
+#newMyHomeRightArea .kxSlidebtn .kxSlidenext_dis {
+    background-position: -25px -25px
+}
+
+.vam {
+    vertical-align: middle
+}
+
+.homeSideBox .ele_slide_body {
+    overflow: hidden
+}
+
+a {
+    color: #333
+}
+
+.homeSideBox .ele_slide_wrap {
+    width: 250px
+}
+
+.pop_frdRel {
+    width: 250px;
+    padding-bottom: 15px;
+    z-index: 10
+}
+
+.pop_frdRel .h_arrow {
+    left: 94px
+}
+
+.pop_frdRel .frdRel_num {
+    padding: 8px 12px 0
+}
+
+.pop_frdRel .frdRel_list {
+    max-height: 217px;
+    overflow: auto
+}
+
+.pop_frdRel .frdRel_list li {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 7px 0 7px 12px
+}
+
+.pop_frdRel .frdRel_list li .ui_blk_cnt {
+    padding-top: 6px
+}
+
+#newMyHomeRightArea #newadrec {
+    margin-top: 0
+}
+
+.slide_box {
+    padding: 3px 6px 0 0
+}
+
+.homeSideBox_hd .h_more {
+    margin-left: 7px;
+    vertical-align: top;
+    display: inline-block
+}
+
+.show_slide .h_more,
+.show_dot .h_more {
+    background-position: -50px -25px
+}
+
+.homeSideBox_hd .l span.f11 {
+    margin-left: 3px
+}
+
+.homeSideBox_hd .l b a {
+    color: #333;
+    text-decoration: none
+}
+
+.homeSideBox_hd .l b {
+    color: #333;
+    cursor: default
+}
+
+#calendarApp {
+    width: 250px
+}
+
+.cmd_friend_wrap {
+    _zoom: 1
+}
+
+.homeFriendItem {
+    width: 60px;
+    text-align: center;
+    margin-right: 0
+}
+
+.frdlist .homeFriendItem {
+    height: 103px
+}
+
+.frdlist li {
+    padding: 12px 0 2px 1px;
+    width: 245px;
+    _height: 88px;
+    min-height: 88px
+}
+
+.frdlist .frd_name {
+    line-height: 14px;
+    margin-top: 5px;
+    _margin-top: 6px;
+    text-align: center
+}
+
+.frdlist .frd_name a {
+    vertical-align: middle
+}
+
+.frdlist .frd_name .ico_status_online {
+    margin-bottom: -2px;
+    _margin-bottom: -5px
+}
+
+.frdlist .frd_name .ico_status {
+    margin-left: 4px
+}
+
+.frdlist .vaftime {
+    margin-top: -1px
+}
+
+.time_tip {
+    height: 23px;
+    _width: 72px;
+    text-align: center;
+    position: absolute;
+    top: -17px;
+    white-space: nowrap
+}
+
+.tip_cnt {
+    display: block;
+    height: 17px;
+    line-height: 17px;
+    padding: 2px 5px;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    background: #fdffce;
+    color: #333!important;
+    border: 1px solid #ebde8a;
+    white-space: nowrap
+}
+
+.visitorBox .homeSideBox_bd,
+.visitorBox {
+    position: relative;
+    zoom: 1
+}
+
+.time_tip .h_arrow {
+    margin: -1px auto 0;
+    display: block;
+    _margin-top: -8px
+}
+
+.frdRcmd li {
+    padding: 9px 0 0 6px
+}
+
+.frdRcmd li .ui_blk_img {
+    margin-top: 3px
+}
+
+.frdRcmd .ele_slide_body li {
+    min-height: 0px;
+    _height: 0px
+}
+
+.frdRcmd .ico_status_online {
+    margin: -1px 0 0 4px;
+    *margin-top: 1px
+}
+
+.frdRcmd .homeFriendRcmdItem {
+    margin-bottom: 10px;
+    position: relative;
+    zoom: 1;
+    *background: #fff
+}
+
+.frdRcmd .homeFriendRcmdItem .j_close_user {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.frdRcmd .h_add {
+    margin: -2px 2px 0 0;
+    *margin-top: 0px
+}
+
+.frdRcmd .ui_blk_cnt p {
+    line-height: 17px
+}
+
+.frdRcmd .ui_blk_cnt p a {
+    text-decoration: none
+}
+
+.frdRcmd .ui_blk_cnt p a.c9 {
+    vertical-align: baseline
+}
+
+.close_Rcmd {
+    margin-top: 3px
+}
+
+.freshRcmd {
+    padding-bottom: 6px
+}
+
+.freshRcmd li {
+    padding: 9px 0 0px 6px
+}
+
+.freshRcmd li .ui_blk_img {
+    margin-top: 3px
+}
+
+.freshRcmd .ele_slide_body li {
+    min-height: 0px;
+    _height: 0px;
+    width: 245px
+}
+
+.freshRcmd .homeFreshRcmdItem {
+    height: 58px;
+    position: relative;
+    zoom: 1
+}
+
+.freshRcmd .homeFreshRcmdItem .j_close_user {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 10px
+}
+
+.freshRcmd .h_add {
+    margin: -2px 2px 0 0
+}
+
+.freshRcmd .ui_blk_cnt p {
+    line-height: 17px
+}
+
+.freshRcmd .ui_blk_cnt p a {
+    text-decoration: none
+}
+
+.newTsk {
+    padding: 1px;
+    background: #fdffce;
+    margin: 20px 20px 0;
+    border: 1px #ece092 solid;
+    position: relative
+}
+
+.newTsk .ico_close {
+    position: absolute;
+    right: 15px;
+    top: 15px
+}
+
+.newTsk_inner {
+    color: #333;
+    padding: 15px 20px 15px 25px
+}
+
+.newTsk_inner .kxbtn {
+    vertical-align: middle
+}
+
+.newTsk_inner h4 {
+    font-size: 14px;
+    margin-bottom: 12px
+}
+
+.tabSwitch_s {
+    top: 45px
+}
+
+.homeFriendPhoto {
+    width: 228px;
+    height: 206px;
+    background: #f5f5f5;
+    border: 1px solid #f2f2f2;
+    margin-top: 16px;
+    margin-left: 6px;
+    margin-bottom: 17px;
+    text-align: center
+}
+
+.homeFriendPhotobg {
+    width: 221px;
+    height: 168px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
+    overflow: hidden
+}
+
+.homeFriendPhotobg a {
+    width: 221px;
+    height: 168px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.homeFriendPhotoPortrait {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    z-index: 37
+}
+
+.homeFriendPhotoPortrait img {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px
+}
+
+.homeFriendPhototxtBg {
+    width: 100%;
+    height: 24px;
+    overflow: hidden;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 35;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+    opacity: 0.5;
+    filter: alpha(opacity=50)
+}
+
+.homeFriendPhototxt {
+    padding-left: 40px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 36
+}
+
+.homeFriendPhototxt a {
+    margin-left: 40px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    position: relative
+}
+
+.homeFriendPhototxt a:hover {
+    color: #fff
+}
+
+.homeFriendPhotoComment {
+    width: 221px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #ccc
+}
+
+.homeFriendPhotoComment a {
+    text-decoration: none;
+    color: #369;
+    line-height: 25px
+}
+
+.homeFriendPhotoComment span {
+    margin-left: 3px;
+    margin-right: 3px
+}
+
+.homeFriendPhotoBtn,
+.homeFriendPhotoBtn:hover {
+    position: absolute;
+    width: 88px;
+    right: 0px;
+    top: 0px;
+    height: 25px;
+    text-align: center;
+    background: url(http://img1.kaixin001.com.cn/i/homenew/homeFriendPhotoBtn2.png) no-repeat;
+    color: #369
+}
+
+.homeFriendPhotoBtn:hover {
+    background-position: 0px -30px;
+    color: #369
+}
+
+.av28List li a {
+    display: block;
+    width: 28px;
+    height: 28px;
+    border: none;
+    padding: 0
+}
+
+.av28List li a img {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px
+}
+
+.frdlist.hpr_box {
+    width: 251px;
+    padding: 0;
+    border: 0
+}
+
+.frdlist.hpr_box .ele_slide_wrap {
+    width: 251px
+}
+
+.hpr_box .ele_slide_wrap li {
+    width: 251px;
+    padding-top: 0
+}
+
+.hpr_box .slide_box {
+    position: absolute;
+    right: 7px;
+    top: 4px;
+    z-index: 10;
+    padding: 0
+}
+
+.ele_slide_body .ele_face50 .kxAvatar_50 {
+    left: 5px;
+    top: 14px;
+    position: absolute
+}
+
+.ele_slide_body .ele_face50 {
+    padding: 12px 25px 8px 65px;
+    border-bottom: 0;
+    min-height: 50px;
+    _height: 50px
+}
+
+.ele_slide_body .ele_face50 div {
+    line-height: 18px
+}
+
+.ele_slide_body .mod_page {
+    margin: 8px 0 0px 0
+}
+
+.ele_slide_body .mod_hotrep p {
+    background: none;
+    padding: 0 25px 0 6px;
+    width: 219px;
+    overflow: hidden
+}
+
+.ele_slide_body .homeRec_friendPhoto {
+    padding-left: 6px
+}
+
+.ele_slide_body .homeRec_friendPhoto_describe {
+    width: 70px
+}
+
+.ele_slide_body .homeRec_friendPhoto {
+    margin-top: 20px
+}
+
+.ele_slide_body .homeRec_friendPhoto_item {
+    margin-bottom: 10px
+}
+
+.homeRec_friendPhoto_photo .kx_photoCmtNum {
+    position: absolute;
+    z-index: 20;
+    height: 15px;
+    bottom: auto;
+    top: 5px;
+    right: 5px;
+    background: none;
+    padding: 0
+}
+
+.homeRec_friendPhoto_photo .kx_photoCmtNum b {
+    position: absolute;
+    width: 6px;
+    display: block;
+    height: 4px;
+    font-size: 0;
+    line-height: 0;
+    z-index: 15;
+    bottom: -4px;
+    _bottom: -3px;
+    right: 4px;
+    right: 3px\9;
+    *right: 3px;
+    text-decoration: none;
+    background: url(http://img1.kaixin001.com.cn/i2/photo/photo_cmtarrow.png) no-repeat;
+    _background: none;
+    _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://img1.kaixin001.com.cn/i2/photo/photo_cmtarrow.png")
+}
+
+.homeRec_friendPhoto_photo .kx_photoCmtNum em {
+    display: inline-block;
+    font-style: normal;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 3px;
+    padding-top: 1px\9;
+    color: #fff;
+    text-align: center;
+    font-family: arial;
+    overflow: hidden;
+    vertical-align: middle;
+    text-decoration: none;
+    background: url(http://img1.kaixin001.com.cn/i/trans_black50p.png) no-repeat;
+    _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://img1.kaixin001.com.cn/i/trans_black50p.png");
+    _background: none
+}
+
+.homeSideBox .mod_til,
+.homeSideBox .fp_til {
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #E2E2E2;
+    background: whiteSmoke;
+    overflow: hidden;
+    padding: 1px 6px 0;
+    cursor: default;
+    width: 239px
+}
+
+.homeSideBox .mod_til a,
+.homeSideBox .fp_til a {
+    color: #333;
+    text-decoration: none
+}
+
+.homeSideBox .iconclose {
+    display: none
+}
+
+.homeSideBox .ele_slide_body .mod_5 {
+    padding-top: 10px
+}
+
+.ele_slide_body .ele_face50 .face50 img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: none;
+    padding: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+    -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+    -ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset
+}
+
+#Feed_Navigation .kx_newsHd {
+    margin-bottom: 11px
+}
+
+.year_2013 {
+    background: url(http://img1.kaixin001.com.cn/i/homenew/dialog2013/change.gif) right bottom no-repeat;
+    cursor: pointer
+}
+
+.hotrep_vib {
+    height: 225px;
+    overflow: hidden
+}
+
+.hotrep_vib p img {
+    margin-top: 6px
+}
+
+.tip_hotrep {
+    display: none;
+    width: 215px;
+    height: 43px;
+    line-height: 21px;
+    padding: 5px 10px;
+    margin: 5px 0 5px;
+    background: #fbfbfb;
+    border: 1px solid #edeff2;
+    color: #999;
+    position: relative
+}
+
+.tip_hotrep .arrow {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    width: 0px;
+    height: 0px;
+    border-width: 8px;
+    border-style: dashed dashed solid dashed;
+    border-color: transparent transparent #fbfbfb transparent
+}
+
+.divineBox {
+    position: static;
+    width: 234px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    background: #fbfbfb;
+    bottom: 23px;
+    z-index: 2000;
+    display: none
+}
+
+.divineBox .divineIco {
+    display: block;
+    background: url(http://img1.kaixin001.com.cn/i/home/divine_bg.png) 0 0 no-repeat;
+    width: 66px;
+    height: 70px;
+    top: -20px;
+    right: -83px;
+    position: absolute
+}
+
+.divineClose {
+    cursor: pointer;
+    display: block;
+    top: 8px;
+    right: 8px;
+    position: absolute
+}
+
+.divineArrow {
+    display: block;
+    background: url(http://img1.kaixin001.com.cn/i/home/divine_bg.png) 0 -74px no-repeat;
+    width: 14px;
+    height: 15px;
+    top: 25px;
+    right: -13px;
+    position: absolute
+}
+
+.divineTit {
+    color: #7b7b7b;
+    margin-bottom: 2px
+}
+
+.divineInner {
+    color: #333333;
+    padding: 8px 0 0 15px
+}
+
+.divineOption {
+    padding-bottom: 6px
+}
+
+.divineOption li,
+.divineBtn {
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .05);
+    border-radius: 3px;
+    height: 26px;
+    text-align: center
+}
+
+.divineOption li {
+    width: 155px
+}
+
+.divineBtn {
+    width: 73px;
+    color: #333;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+    line-height: 26px;
+    text-decoration: none
+}
+
+.divineBtn:hover {
+    color: #333
+}
+
+.divineOption .deny a,
+.divineOption .recall {
+    color: #999999
+}
+
+.divineOption .correct {
+    background: url(http://img1.kaixin001.com.cn/i/home/divine_bg.png) -20px -70px no-repeat
+}
+
+.divineOption .mistake {
+    background: url(http://img1.kaixin001.com.cn/i/home/divine_bg.png) -20px -92px no-repeat
+}
+
+.divineOption .shortW {
+    display: inline-block;
+    width: 77px;
+    height: 26px;
+    vertical-align: top
+}
+
+.divineOption .separated {
+    display: inline-block;
+    width: 1px;
+    height: 26px;
+    background: #e4e4e4
+}
+
+.divineOption a {
+    color: #666666;
+    width: 155px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none
+}
+
+.divineOption a:hover {
+    color: #336699
+}
+
+.choseSelectBox {
+    position: relative;
+    z-index: 100;
+    zoom: 1
+}
+
+.choseSelectBox .list {
+    display: none;
+    position: absolute;
+    border: 1px solid #dddddd;
+    width: 87px;
+    height: 215px;
+    overflow: auto;
+    line-height: 23px;
+    background-color: #fff;
+    z-index: 103;
+    bottom: 24px
+}
+
+.choseSelectBox .list li {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    padding-left: 5px;
+    height: 23px;
+    overflow: hidden
+}
+
+.choseSelectBox .list li.hover {
+    background-color: #eee
+}
+
+.choseSelectBox .label {
+    height: 24px;
+    line-height: 24px
+}
+
+.choseSelectBox .choseSelect {
+    position: relative;
+    z-index: 100
+}
+
+.choseSelectBox .choseSelect .select {
+    text-decoration: none;
+    color: #333
+}
+
+.choseSelectBox .input {
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    height: 22px;
+    line-height: 22px;
+    display: block;
+    padding-left: 3px;
+    width: 68px;
+    padding: 0 16px 0 3px
+}
+
+.choseSelectBox .select_arrow {
+    position: absolute;
+    display: block;
+    background: url(http://img1.kaixin001.com.cn/i/home/select_arrow.png) 0 0 no-repeat;
+    width: 7px;
+    height: 4px;
+    overflow: hidden;
+    top: 9px;
+    right: 8px
+}
+
+.divineBox .schoo_choose {
+    width: 192px;
+    height: 21px;
+    line-height: 21px;
+    color: #666;
+    border: 1px solid #dddddd;
+    background: #FFFFFF;
+    margin-bottom: 10px
+}
+
+.choseSelectBox .school_input {
+    width: 118px
+}
+
+.choseSelectBox .school_list {
+    width: 137px
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .chatUserListActived .divineBox {
+        margin-right: -377px;
+        right: 50%
+    }
+}
+
+.feed_recordText {}
+
+.feed_recordText_control {
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    text-align: right
+}
+
+.feed_recordText_control a {
+    position: absolute;
+    width: 12px;
+    height: 9px;
+    overflow: hidden;
+    z-index: 10;
+    margin: -9px 0 0 3px;
+    background: url(http://img1.kaixin001.com.cn/i/ico/ico_recordcolspan.png) no-repeat;
+    background-position: -30px 0
+}
+
+.feed_recordText_control a:hover {
+    background-position: -45px 0
+}
+
+.feed_recordText_cols .feed_recordText_span {
+    display: block;
+    height: 80px;
+    overflow: hidden
+}
+
+.feed_recordText_cols .feed_recordText_control {
+    display: block;
+    margin-right: -15px
+}
+
+.feed_recordText_cols .feed_recordText_control a {
+    margin: -16px 0 0 -12px;
+    background-position: 0 0
+}
+
+.feed_recordText_cols .feed_recordText_control a:hover {
+    background-position: -15px 0
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*边距清零*/
+
+#search{
+    width: 184px;
+    font-size: 12px;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+}
+
+#search-btn{
+    color: #fff;
+    cursor: pointer;
+    height: 28px;
+    width: 40px;
+    border: 1px solid #bb0f73;
+    background-color: #D5077F;
+}

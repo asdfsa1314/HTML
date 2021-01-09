@@ -1,0 +1,1851 @@
+.gameMainBox a.sl {
+    text-decoration: none
+}
+
+a.gameReg,
+.btnGameUserBox a,
+.gameLaterSerCon ul li i,
+.btnGameEnter,
+.btnGameEnter:hover,
+.btnNewSer,
+.btnNewSerBox3,
+.btnNewSerBox3:hover,
+.popArrowB,
+.popNewSerEnter,
+#gameList li.current a,
+#gameList li a:hover,
+.popNewSerNews {
+    background-image: url(http://img1.kaixin001.com.cn/i3/game/new/game_icon.png);
+    background-repeat: no-repeat
+}
+
+.gameDeskBox .desk {
+    float: right;
+    background: url(http://img1.kaixin001.com.cn/i3/game/wg_sprite.gif) no-repeat 0 -40px;
+    width: 89px;
+    height: 23px;
+    margin: 8px 9px 0 0
+}
+
+.gameHeadUserCenter {
+    float: right;
+    line-height: 41px;
+    color: #fff;
+    margin-right: 22px
+}
+
+.gameHeadUserCenter a {
+    display: inline-block
+}
+
+.gameHeadUserCenter a,
+.gameHeadUserCenter a:hover {
+    text-decoration: none;
+    color: #fff;
+    float: left
+}
+
+.gameHeadLine {
+    width: 1px;
+    height: 11px;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 9px;
+    background: url(http://img1.kaixin001.com.cn/i3/game/new/gamehead_line.png) no-repeat;
+    float: left;
+    margin-top: 15px
+}
+
+.gameMainBox {
+    width: 1004px;
+    margin: 0 auto;
+    padding-top: 13px
+}
+
+.gameBoxInner {
+    height: 280px
+}
+
+.gameFocusLeft {
+    height: 280px;
+    width: 260px;
+    float: left
+}
+
+.gameUserCenterBox {
+    float: left;
+    width: 258px;
+    height: 278px;
+    border: 1px solid #e3e3e3;
+    background: #ececec;
+    overflow: hidden;
+    position: relative
+}
+
+.gameUserCenterTopline {
+    border-top: 1px solid #fff;
+    padding: 0 6px 0 9px
+}
+
+.gameUserCenterTopline h1 {
+    line-height: 38px;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 3px
+}
+
+.gameUserAccounts {
+    width: 37px;
+    display: inline-block
+}
+
+.gameUserCenterTopline li {
+    margin-bottom: 6px
+}
+
+.gameUserCenterTopline li .gameUserInt {
+    width: 173px;
+    height: 18px;
+    border: 1px solid #b6b5b5;
+    color: #ccc
+}
+
+.gameUserCenterTopline li .gameForgetPass {
+    margin-top: auto;
+}
+
+.gameUserCenterTopline li .gameForgetPass a {
+    text-decoration: none;
+    color: #369;
+    margin-left: 10px;
+    line-height: 17px;
+    vertical-align: bottom
+}
+
+.gameUserCenterTopline li .gameForgetPass a:hover {
+    text-decoration: underline
+}
+
+.gameUserAccounts,
+.gameUserIntBox,
+.gameForgetPass {
+    display: inline-block;
+    line-height: 26px;
+    white-space: nowrap;
+    vertical-align: bottom
+}
+
+.gameUserIntBox {
+    position: relative
+}
+
+.gameUserCenterBox .login_qq {
+    margin-top: 3px
+}
+
+.gameUserCenterBox .gameUserLine1 {
+    border-bottom: 1px solid #d9d9d9;
+    height: 38px;
+    margin-bottom: 0px
+}
+
+.gameUserCenterBox .gameUserLine2 {
+    border-top: 1px solid #fff;
+    height: 38px;
+    margin-bottom: 0px
+}
+
+.gameUserCenterBox .gameUserLine2 span,
+.gameUserCenterBox .gameUserLine2 a.gameReg {
+    display: inline-block;
+    line-height: 27px;
+    margin-top: 5px
+}
+
+.gameUserCenterBox .gameUserLine2 a.gameReg {
+    width: 106px;
+    height: 27px;
+    background-position: 0 0;
+    overflow: hidden;
+    text-decoration: none;
+    color: #666;
+    text-align: center
+}
+
+.gameUserCenterBox .gameUserLine2 a.gameReg:hover {
+    color: #da3640
+}
+
+.btnGameUserBox a {
+    width: 128px;
+    height: 38px;
+    display: inline-block;
+    text-decoration: none;
+    color: #333
+}
+
+.btnGameUserBox a:hover,
+.btnGameUserBox a.btnClickGameBack {
+    color: #fff
+}
+
+.btnGameUserBox a.btnGameBack {
+    background-position: 0 -36px;
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3
+}
+
+.btnGameUserBox a.btnGameBack:hover,
+.btnGameUserBox a.btnClickGameBack {
+    background-position: 0 -129px
+}
+
+.btnGameUserBox a.btnGamePay {
+    background-position: -137px -36px;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.btnGameUserBox a.btnGamePay:hover {
+    background-position: -137px -129px
+}
+
+.btnGameUserBox a.btnGameCom {
+    background-position: 0 -82px;
+    border-right: 1px solid #e3e3e3
+}
+
+.btnGameUserBox a.btnGameCom:hover {
+    background-position: 0 -175px
+}
+
+.btnGameUserBox a.btnGameService {
+    background-position: -137px -82px
+}
+
+.btnGameUserBox a.btnGameService:hover {
+    background-position: -137px -175px
+}
+
+.btnGameUserBox a span {
+    margin: 6px 0 0 38px;
+    display: inline-block
+}
+
+.btnGameUserBox {
+    margin-top: 12px;
+    width: 257px;
+    margin-left: -9px
+}
+
+.gameUserCenterBox dl {
+    margin-top: 14px;
+    height: 50px;
+    overflow: hidden
+}
+
+.gameUserCenterTopline dl dt {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left
+}
+
+.gameUserCenterTopline dl dd {
+    float: left;
+    width: 180px
+}
+
+.gameUserCenterTopline dl dd i.gameMoneyBg {
+    width: 13px;
+    height: 13px;
+    background: url(http://img1.kaixin001.com.cn/i3/game/new/game_money.png) no-repeat;
+    margin-right: 4px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.gameUserCenterTopline dl dd p.gameName a,
+.gameUserCenterTopline dl dd p.gameName a:hover {
+    color: #369;
+    text-decoration: none
+}
+
+.gameUserCenterTopline dl dd p.gameName {
+    margin-top: -3px;
+    margin-bottom: 17px
+}
+
+.gameUserCenterTopline dl dd p.gameMoney {
+    height: 19px
+}
+
+.gameUserCenterTopline dl dd .gameMoneyPay {
+    border: 1px solid #8692a2;
+    padding: 0 2px;
+    line-height: 15px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px
+}
+
+.gameColor {
+    color: #fc6604
+}
+
+.gameMoneyPay a,
+.gameMoneyPay a:hover {
+    color: #8692a2;
+    text-decoration: none
+}
+
+.gameUserCenter {
+    padding: 6px 0 2px 0;
+    border-bottom: 1px solid #e1e1e1
+}
+
+.gameUserCenter b {
+    font-weight: normal;
+    margin: 0 5px
+}
+
+.gameLately {
+    height: 106px;
+    border-top: 1px solid #fff;
+    margin-bottom: -11px
+}
+
+.gameLately h3 {
+    color: #000;
+    margin: 2px 0 3px 0;
+    _margin: 2px 0 6px 0
+}
+
+.gameLately ul li {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 2px
+}
+
+.gameLately ul li a.gameChangeLogo {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 3px
+}
+
+.gameLately ul li .gameLatelyL {
+    width: 140px;
+    overflow: hidden
+}
+
+.gameLately ul li .gameLatelyR {
+    text-align: right
+}
+
+.gameLately ul li .gameLatelyR a,
+.gameLately ul li .gameLatelyR a:hover {
+    text-align: right;
+    color: #666;
+    text-decoration: none
+}
+
+.gameLately ul li .gameLatelyR a:hover {
+    text-decoration: underline
+}
+
+.gameFocusBox {
+    width: 732px;
+    height: 278px;
+    *height: 275px;
+    *padding-top: 3px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative
+}
+
+.gameFocusBox ul {
+    width: 726px;
+    height: 272px;
+    margin: 3px 0 0 3px;
+    overflow: hidden
+}
+
+.gameFocusBox ul li {
+    width: 726px;
+    height: 272px
+}
+
+.gameFocusBox ol {
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    bottom: 13px;
+    right: 6px
+}
+
+.gameFocusBox ol li {
+    width: 15px;
+    *width: 12px;
+    *padding-left: 3px;
+    height: 18px;
+    background: #b1b1b1;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    color: #333
+}
+
+.gameFocusBox ol li.active {
+    background: #efefef;
+    color: #010101
+}
+
+.gameLeftBox,
+.gameBdBox,
+.gameRightBox,
+.gameLink,
+.gameListInner,
+.gameListLater,
+.gamePlaying,
+.gameGuard {
+    width: 258px;
+    min-height: 50px;
+    _height: 50px;
+    border: 1px solid #e3e3e3;
+    position: relative
+}
+
+.gameBdBox,
+.gameHotBox {
+    width: 508px
+}
+
+.gameHotBox,
+.gameLinkList {
+    overflow: hidden
+}
+
+.gameRightBox {
+    width: 212px
+}
+
+.gameLeftBox h3,
+.gameBdBox h3,
+.gameRightBox h3,
+.gameLink h3,
+.gameListInner h3,
+.gameListLater h3,
+.gamePlaying h3,
+.gameGuard h3 {
+    height: 32px;
+    line-height: 32px;
+    background: url(http://img1.kaixin001.com.cn/i3/game/new/game_titlebg.gif) repeat-x;
+    font-size: 12px;
+    color: #333;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.gameLaterSerCon {
+    padding: 7px 9px 10px;
+    height: 198px;
+    overflow: hidden
+}
+
+.gameSerTime,
+.gameSerName,
+.gameServicer {
+    display: inline-block;
+    margin: 0 0 3px 0;
+    color: #333;
+    text-align: center
+}
+
+.gameSerTime {
+    width: 59px
+}
+
+.gameSerName {
+    width: 89px;
+    *width: 75px
+}
+
+.gameServicer {
+    width: 84px
+}
+
+.gameLaterSerCon ul li {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    background: #f0f0f0
+}
+
+.gameLaterSerCon ul li span a,
+.gameLaterSerCon ul li span a {
+    color: #333;
+    text-decoration: none
+}
+
+.gameLaterSerCon ul li span a:hover,
+.gameLaterSerCon ul li span a:hover {
+    color: #369;
+    text-decoration: none
+}
+
+.gameSerTimeInner,
+.gameSerNameInner,
+.gameServicerInner {
+    display: inline-block;
+    text-align: left;
+    overflow: hidden
+}
+
+.gameSerTimeInner {
+    background: #71bdcf;
+    width: 44px;
+    padding-left: 15px
+}
+
+.gameSerNameInner {
+    width: 83px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.gameServicerInner {
+    width: 92px;
+    text-align: right;
+    padding-right: 5px;
+    white-space: nowrap
+}
+
+.gameLaterSerCon ul li i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+    margin-right: 5px;
+    vertical-align: bottom;
+    margin-bottom: 3px
+}
+
+.gameLaterSerCon ul li i.gameServicerN {
+    background-position: -119px 0
+}
+
+.gameLaterSerCon ul li i.gameServicerH {
+    background-position: -137px 0
+}
+
+.gameLaterSerCon ul li .gameSerTimeBg {
+    background: #999;
+    color: #fff
+}
+
+.gameDayBoutique {
+    padding: 10px 9px;
+    height: 109px;
+    overflow: hidden
+}
+
+.gameDayBoutique dl {
+    width: 100%;
+    height: 86px;
+    overflow: hidden
+}
+
+.gameDayBoutique dl dt {
+    float: left;
+    width: 132px;
+    height: 86px;
+    margin-right: 8px
+}
+
+.gameDayBoutique dl dt img,
+.gameStrate h4 img {
+    border: 1px solid #e3e3e3
+}
+
+.gameDayBoutique dl dd {
+    float: left
+}
+
+.gameDayName {
+    color: #333;
+    margin-bottom: 3px;
+    margin-top: -2px
+}
+
+.gameDayType {
+    color: #666
+}
+
+.btnGameEnter {
+    width: 83px;
+    height: 24px;
+    display: inline-block;
+    background-position: 0 -230px;
+    margin-top: 20px
+}
+
+.btnGameEnter:hover {
+    background-position: -91px -230px
+}
+
+.gameDayInner {
+    margin-top: 4px;
+    clear: left
+}
+
+.gameDayInner a {
+    color: #369;
+    text-decoration: none
+}
+
+.gameDayInner a:hover {
+    color: #3366cc
+}
+
+.gameDayInner b {
+    width: 1px;
+    overflow: hidden;
+    margin: 0 4px;
+    font-weight: normal
+}
+
+.gameMore {
+    float: right;
+    width: 37px;
+    height: 19px;
+    display: inline-block;
+    overflow: hidden;
+    padding-top: 10px;
+    *position: absolute;
+    *right: 9px;
+    *top: -13px;
+    *margin-top: 13px
+}
+
+.gameStrate {
+    padding: 10px 9px 13px;
+    word-wrap: normal;
+    height: 227px;
+    overflow: hidden
+}
+
+.gameStrate ul {
+    width: 100%;
+    margin-top: 7px
+}
+
+.gameStrate ul li,
+.gameNotice ul li {
+    width: 215px;
+    margin-top: 7px;
+    padding-left: 23px;
+    background: url(http://img1.kaixin001.com.cn/i3/game/new/game_stratebg.gif) no-repeat 2px center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 3px;
+    line-height: 15px;
+    *line-height: 14px
+}
+
+.gameStrate ul li a,
+.gameNotice ul li a,
+.gameLinkInner dl dd a {
+    color: #333;
+    text-decoration: none
+}
+
+.gameStrate ul li a:hover,
+.gameNotice ul li a:hover,
+.gameLinkInner dl dd a:hover {
+    color: #369
+}
+
+.gameLeft {
+    width: 260px;
+    overflow: hidden;
+    float: left
+}
+
+.gameCol {
+    width: 510px;
+    float: left;
+    overflow: hidden
+}
+
+.gameNewSer {
+    overflow: hidden;
+    height: 80px
+}
+
+.gameNewSer ul {
+    width: 519px
+}
+
+.gameNewSer ul li {
+    float: left;
+    margin-right: 9px;
+    width: 164px;
+    height: 80px
+}
+
+.gameNewSer ul li img {
+    border: 1px solid #e3e3e3
+}
+
+.gameHotRecom {
+    padding: 20px 19px 19px;
+    width: 490px;
+    height: 860px;
+    overflow: hidden
+}
+
+.gameHotRecom dl,
+.gameListCon dl {
+    width: 215px;
+    height: 175px;
+    border: 1px solid #e3e3e3;
+    background: #f7f7f7;
+    padding: 4px 4px 19px;
+    overflow: hidden;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 20px
+}
+
+.gameHotRecom dl dt,
+.gameListCon dl dt {
+    margin-bottom: 4px
+}
+
+.gameHotRecom dl dt img,
+.gameListCon dl dt img {
+    border: 1px solid #e0e0e0
+}
+
+.gameHotRecom dl dd p,
+.gameListCon dl dd p {
+    height: 74px;
+    overflow: hidden;
+    line-height: 22px;
+    padding: 0 4px
+}
+
+.btnNewSer {
+    background-position: -159px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-left: 3px;
+    vertical-align: middle
+}
+
+.popNewSerBox {
+    width: 213px;
+    *width: 210px;
+    position: absolute;
+    height: 68px;
+    bottom: 21px;
+    _bottom: 19px;
+    left: 0;
+    *left: -1px;
+    display: none;
+    overflow: hidden
+}
+
+.popNewSerNews {
+    width: 21px;
+    height: 11px;
+    display: inline-block;
+    background-position: -238px 0px;
+    margin-left: 10px;
+    vertical-align: middle
+}
+
+.popNewSerEnter {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-position: -211px 0;
+    vertical-align: middle;
+    margin-left: 8px;
+    cursor: pointer
+}
+
+.popNewSer {
+    width: 211px;
+    *width: 208px;
+    padding: 18px 0 22px;
+    position: relative;
+    background: #ecfbff;
+    border: 1px solid #71bdcf
+}
+
+.popNewSerTime,
+.popNewSerName,
+.popNewSerMore {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.popNewSerTime {
+    margin-left: 3px;
+    margin-right: 7px;
+    _margin-top: -2px
+}
+
+.popNewSerName {
+    margin-right: 10px;
+    *vertical-align: top;
+    _vertical-align: middle
+}
+
+.popNewSerMore a,
+.popNewSerMore a:hover {
+    color: #666;
+    text-decoration: none
+}
+
+.popArrowB {
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    background-position: -186px 0;
+    position: absolute;
+    left: 25px;
+    bottom: -6px;
+    _bottom: -15px
+}
+
+.btnNewSerBox,
+.btnNewSerBox2 {
+    padding: 1px 6px 0;
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+    border: 1px solid #c7c9cf;
+    vertical-align: top;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px
+}
+
+.btnNewSerBox {
+    position: relative;
+    _height: 16px;
+    *padding: 1px 5px 0;
+    _padding: 4px 3px 0px
+}
+
+.btnNewSerBox2 {
+    padding: 1px 12px 0;
+    margin: 0 5px 0 10px
+}
+
+.btnNewSerBox2 a {
+    color: #333;
+    text-decoration: none
+}
+
+.btnNewSerBox2 a:hover {
+    color: #369
+}
+
+.btnNewSerBox3 {
+    width: 70px;
+    height: 21px;
+    padding-top: 1px;
+    background-position: 0 -264px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: top
+}
+
+.btnNewSerBox3:hover {
+    background-position: -78px -264px;
+    background-position: -78px -264px;
+    color: #fff
+}
+
+.gameRight {
+    width: 214px;
+    float: left
+}
+
+.gameNotice {
+    padding: 14px 10px 13px;
+    word-wrap: normal;
+    height: 238px;
+    overflow: hidden
+}
+
+.gameNotice ul li {
+    width: 171px;
+    padding-left: 20px;
+    margin-top: 0px;
+    line-height: 19px
+}
+
+.gameWeibo_qq,
+.gameWeibo_sina,
+.gameRAdv1,
+.gameRAdv2 {
+    width: 214px;
+    height: 55px;
+    display: inline-block
+}
+
+.gameWeibo_qq {
+    background: url(http://img1.kaixin001.com.cn/i3/game/new/weibo_tentect.jpg) no-repeat
+}
+
+.gameWeibo_sina {
+    background: url(http://img1.kaixin001.com.cn/i3/game/new/weibo_sina.jpg) no-repeat
+}
+
+.gameLike {
+    padding: 18px 7px 9px;
+    height: 213px;
+    overflow: hidden
+}
+
+.gameLike dl {
+    margin-bottom: 11px;
+    height: 60px;
+    overflow: hidden
+}
+
+.gameLike dl dt {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px
+}
+
+.gameLike dl dt img {
+    width: 58px;
+    height: 58px;
+    border: 1px solid #e3e3e3
+}
+
+.gameLike dl dd {
+    float: left;
+    width: 133px;
+    overflow: hidden
+}
+
+.gameLike dl dd .gameStar {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 1px;
+    background: url(http://img1.kaixin001.com.cn/i3/game/new/game_star.png) no-repeat
+}
+
+.gameLike dl dd .gameLikeName {
+    margin-top: -2px;
+    _margin-top: 0px
+}
+
+.gameLike dl dd .gameLikeName a {
+    text-decoration: none;
+    color: #333
+}
+
+.gameLike dl dd .gameLikeName a:hover {
+    color: #369
+}
+
+.gameLike dl dd .gameLikeReason {
+    line-height: 23px;
+    color: #666
+}
+
+.gameRAdv1 {
+    height: 194px
+}
+
+.gameRAdv2 {
+    height: 95px
+}
+
+.gameLink {
+    width: 1002px;
+    margin: 10px auto 45px
+}
+
+.gameLinkList {
+    width: 1002px
+}
+
+.gameLinkInner {
+    padding: 20px 11px 15px;
+    width: 1010px
+}
+
+.gameLinkInner dl {
+    width: 71px;
+    text-align: center;
+    margin-right: 30px;
+    float: left;
+    margin-bottom: 8px
+}
+
+.gameLinkInner dl dt {
+    width: 71px;
+    height: 71px
+}
+
+.gameLinkInner dl dt img {
+    width: 69px;
+    height: 69px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px
+}
+
+.gameLinkInner dl dd {
+    width: 71px;
+    height: 22px;
+    overflow: hidden
+}
+
+.gameLinkInner dl dd a {
+    line-height: 22px
+}
+
+.gameLinkInner p {
+    color: #a0a0a0;
+    width: 980px
+}
+
+.gameLinkInner p b {
+    font-weight: normal;
+    margin: 0 6px
+}
+
+.gameLinkInner p a {
+    line-height: 24px;
+    text-decoration: none;
+    color: #a0a0a0
+}
+
+.gameLinkInner p a:hover {
+    color: #369
+}
+
+.gameListLeft {
+    width: 755px;
+    float: left
+}
+
+.gameListInner {
+    width: 753px
+}
+
+.gameListConBox {
+    padding: 0 19px 0;
+    width: 715px;
+    height: 899px;
+    overflow: hidden
+}
+
+#gameList {
+    width: 360px;
+    *width: 370px;
+    float: left;
+    margin-left: 88px;
+    margin-top: -30px
+}
+
+#gameList li {
+    float: left
+}
+
+#gameList li a {
+    width: 88px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px
+}
+
+#gameList li.current a,
+#gameList li a:hover {
+    background-position: -169px -264px;
+    color: #369
+}
+
+#gameList li a,
+#gameList li a:hover {
+    text-decoration: none;
+    color: #333
+}
+
+#gameList li a:hover {
+    text-decoration: none;
+    color: #369
+}
+
+.gameListCon {
+    width: 735px
+}
+
+.gameListCon dl {
+    margin-bottom: 0px;
+    margin-top: 20px
+}
+
+.gameListRight {
+    width: 239px;
+    overflow: hidden;
+    float: right
+}
+
+.gameListLater,
+.gamePlaying,
+.gameGuard {
+    width: 237px
+}
+
+.gameListLater .gameSerTime {
+    width: 46px
+}
+
+.gameListLater .gameSerName {
+    width: 71px
+}
+
+.gameListLater .gameServicer {
+    width: 82px
+}
+
+.gameListLater .gameSerTimeInner {
+    width: 39px;
+    padding-left: 7px
+}
+
+.gameListLater .gameSerNameInner {
+    width: 78px
+}
+
+.gameListLater .gameServicerInner {
+    width: 92px;
+    padding-right: 3px
+}
+
+.gamePlayCon {
+    padding: 18px 10px 8px;
+    height: 434px;
+    overflow: hidden
+}
+
+.gamePlayCon dl {
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 12px
+}
+
+.gamePlayCon dl dt {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 5px
+}
+
+.gamePlayCon dl dd {
+    float: left;
+    width: 160px
+}
+
+.gameGuardCon {
+    height: 110px;
+    overflow: hidden;
+    padding: 13px 9px 11px;
+    position: relative
+}
+
+.gameGuardCon p {
+    line-height: 22px;
+    color: #666
+}
+
+.gameGuardCon .check {
+    position: absolute;
+    right: 9px;
+    bottom: 11px
+}
+
+.gamePageBox {
+    height: 25px;
+    width: 1004px;
+    overflow: hidden;
+    margin: 27px auto 20px;
+    padding-top: 1px
+}
+
+.gamePageBox .kx_pages {
+    text-align: left;
+    margin-left: 176px
+}
+
+.tipRegister {
+    margin-top: 9px;
+    position: absolute;
+    height: 30px
+}
+
+.tipRegister .kx_redTip div p {
+    width: 224px
+}
+
+.gameRegBox {
+    width: 243px
+}
+
+.gameRegBox li .gameUserInt {
+    width: 173px;
+    color: #ccc
+}
+
+.gameRegYzm span,
+.gameRegYzm span a {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.btnNewSerBox3,
+.btnNewSerBox2,
+.btnNewSerBox {
+    float: right
+}
+
+.popNameBox {
+    vertical-align: middle;
+    _vertical-align: bottom;
+    display: inline-block;
+    cursor: pointer
+}
+
+.login_enhance {
+    width: 1004px;
+    background: #fff;
+    border-right: 1px solid #f0f1f3;
+    margin: 0 auto;
+    border-bottom: 1px solid #f0f1f3
+}
+
+.login_enhance_con {
+    width: 220px;
+    height: 575px;
+    *height: 577px;
+    border: 1px solid #d9dce2;
+    border-top: none;
+    box-shadow: 0 2px 3px #d9dce2;
+    background: #f0f5fa url(http://img1.kaixin001.com.cn/i/login/left_bg.png) repeat-x left 2px
+}
+
+.login_enhance_right {
+    width: 700px;
+    height: 575px;
+    *height: 577px;
+    margin-right: 41px
+}
+
+.mobileList {
+    padding-left: 2px
+}
+
+.mobileList li {
+    float: left;
+    list-style: none;
+    position: relative;
+    padding-top: 2px
+}
+
+.mobileList li a {
+    float: left;
+    width: 17px;
+    height: 22px;
+    overflow: hidden;
+    background: url(http://img1.kaixin001.com.cn/i/wapico5.png) no-repeat
+}
+
+.mobileList li i {
+    position: absolute;
+    top: -6px;
+    left: 13px;
+    width: 23px;
+    height: 11px;
+    background: url(http://img1.kaixin001.com.cn/i/new.gif) no-repeat
+}
+
+.mobileList li.android {
+    margin: 0 11px 0 12px
+}
+
+.mobileList li.iphone a {
+    background-position: 0 -54px
+}
+
+.mobileList li.iphone a:hover {
+    background-position: 0 -80px
+}
+
+.mobileList li.android a {
+    background-position: -31px -54px
+}
+
+.mobileList li.android a:hover {
+    background-position: -31px -80px
+}
+
+.mobileList li.symbian a {
+    background-position: -62px -54px
+}
+
+.mobileList li.symbian a:hover {
+    background-position: -62px -80px
+}
+
+.mobileList li.androidNo {
+    margin: 0 14px 0 20px
+}
+
+.mobileList li.androidNo a {
+    background-position: -89px top;
+    width: 19px;
+    height: 23px
+}
+
+.mt15 {
+    margin-top: 15px!important
+}
+
+#kxhr {
+    margin-top: 19px;
+    margin-bottom: 18px
+}
+
+#kxhr p {
+    margin: 0;
+    height: 1px;
+    line-height: 1px;
+    overflow: hidden
+}
+
+#kxhr .line1 {
+    background: #e2e2e2
+}
+
+#kxhr .line2 {
+    background: #fff
+}
+
+.loginPanel p {
+    padding-left: 6px;
+    margin-bottom: 10px
+}
+
+.loginPanel form {
+    width: 100%;
+    position: relative;
+    z-index: 10
+}
+
+.loginPanel_open .panel-wp {
+    height: 280px
+}
+
+.loginPanel_randiv {
+    top: 25px
+}
+
+.loginPanel_randiv .panel-wp {
+    height: 410px
+}
+
+.otherLogin {
+    margin: 18px 0 -1px 0;
+    padding-left: 2px
+}
+
+.otherLogin ul li {
+    margin-right: 0;
+    padding-top: 2px;
+    display: inline
+}
+
+.otherLogin .otherLogin_q,
+.otherLogin .otherLogin_sina,
+.otherLogin .otherLogin_t,
+.otherLogin .otherLogin_m {
+    background: url(http://img1.kaixin001.com.cn/i/login/login_ico.png) no-repeat
+}
+
+.otherLogin .otherLogin_q {
+    padding-left: 19px;
+    margin-right: 12px;
+    display: inline-block
+}
+
+.otherLogin .otherLogin_sina {
+    background-position: 0 -60px;
+    padding-left: 16px;
+    margin-right: 10px;
+    display: inline-block
+}
+
+.otherLogin .otherLogin_t {
+    background-position: 0 -19px;
+    padding-left: 21px;
+    margin-right: 8px;
+    display: inline-block
+}
+
+.otherLogin .otherLogin_m {
+    background-position: 0 -40px;
+    padding-left: 21px;
+    display: inline-block
+}
+
+.newFormItem {
+    margin-bottom: 15px
+}
+
+.newFormItem .checkbox {
+    vertical-align: text-bottom;
+    vertical-align: middle\9
+}
+
+.newFormItem_inptList {
+    margin-top: -2px;
+    _margin-top: -1px;
+    margin-top: 1px\0
+}
+
+.newFormItem_inptList .checkbox {
+    margin: 3px 4px 0 1px;
+    *margin: 0 1px 0 -3px;
+    _margin: -1px -2px 0 -3px;
+    margin: -1px 1px 0 -2px\0
+}
+
+.newFormItem_inptList label {
+    margin-top: 1px\0
+}
+
+.newFormItem_inptList .c9 {
+    font-family: \5b8b\4f53
+}
+
+.newFormInput {
+    position: relative;
+    zoom: 1
+}
+
+.newFormInput i {
+    position: absolute;
+    right: 18px;
+    top: 12px;
+    background: url(http://img1.kaixin001.com.cn/i/del_account.gif ) no-repeat;
+    width: 13px;
+    height: 13px;
+    cursor: pointer
+}
+
+.newFormInput .it_s {
+    border-color: #adb6c9
+}
+
+.newFormInput .it1 {
+    border: none;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff
+}
+
+.newFormInput .it2 {
+    border: none;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999
+}
+
+#sy_yhm input,
+#sy_mm input,
+#sy_yzm input {
+    width: 173px;
+    height: 19px;
+    padding: 7px;
+    font-size: 14px;
+    outline: none
+}
+
+#loginbtn {
+    margin-top: -3px
+}
+
+#link1div {
+    margin-top: -1px;
+    margin-top: -3px\0
+}
+
+#link1div a.c9,
+#link1div a.c9:hover {
+    text-decoration: none;
+    cursor: default;
+    color: #999
+}
+
+.newFormBtn_red,
+.newFormBtn_red2,
+.newFormBtn_gray,
+.newFormBtn_gray2,
+.newFormBtn_blue {
+    width: 89px;
+    height: 28px;
+    background: url(http://img1.kaixin001.com.cn/i/login/login_btn_01.png) no-repeat;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block
+}
+
+.newFormBtn_red,
+a.newFormBtn_red {
+    background-position: 0 0;
+    color: #fff
+}
+
+.newFormBtn_red2,
+a.newFormBtn_red2 {
+    width: 190px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: bold;
+    background-position: 0 -70px;
+    color: #fff
+}
+
+.newFormBtn_red:hover,
+a.newFormBtn_red:hover {
+    background-position: 0 -28px
+}
+
+.newFormBtn_red2:hover,
+a.newFormBtn_red2:hover {
+    background-position: 0 -112px
+}
+
+.newFormBtn_red2:active,
+a.newFormBtn_red2:active {
+    background-position: 0 -154px
+}
+
+.newFormBtn_gray,
+a.newFormBtn_gray {
+    background-position: -89px 0;
+    color: #333
+}
+
+.newFormBtn_blue,
+a.newFormBtn_blue {
+    width: 190px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: bold;
+    background-position: -200px -70px;
+    color: #fff;
+    text-decoration: none
+}
+
+.newFormBtn_gray:hover,
+a.newFormBtn_gray:hover {
+    background-position: -89px -28px;
+    color: #333
+}
+
+.newFormBtn_blue:hover,
+a.newFormBtn_blue:hover {
+    background-position: -200px -112px;
+    color: #fff
+}
+
+.newFormBtn_blue:active,
+a.newFormBtn_blue:active {
+    background-position: -200px -154px;
+    color: #fff
+}
+
+a.newFormBtn_red,
+a.newFormBtn_gray {
+    line-height: 27px;
+    line-height: 28px\9;
+    text-decoration: none
+}
+
+.newFormBtn_gray2 {
+    width: 61px;
+    height: 36px;
+    background-position: -506px -70px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #999
+}
+
+.newFormBtn_gray2:hover {
+    background-position: -506px -112px;
+    color: #999
+}
+
+.newFormBtn_gray2:active {
+    background-position: -506px -154px;
+    color: #999
+}
+
+:root input.newFormBtn_red,
+:root input.newFormBtn_gray {
+    padding-bottom: 4px;
+    padding-bottom: 0\0
+}
+
+:root a.newFormBtn_blue {
+    line-height: 38px\0
+}
+
+.errorList {
+    position: relative;
+    height: 30px;
+    width: 202px;
+    margin-bottom: 4px;
+    margin-top: -7px
+}
+
+.errorList .box-login {
+    position: absolute;
+    width: 190px;
+    bottom: 0;
+    padding-bottom: 7px;
+    border-top: 1px solid #ffb7b7;
+    background: url(http://img1.kaixin001.com.cn/i/login/login_prompt_err.png) no-repeat left bottom
+}
+
+.errorList .box-login p {
+    margin: 0;
+    padding: 6px 8px;
+    background: none;
+    color: #dd4b39;
+    font-size: 14px
+}
+
+.warnList {
+    position: relative;
+    height: 30px;
+    width: 202px;
+    margin-bottom: 10px;
+    margin-top: 5px
+}
+
+.warnList .box-login {
+    position: absolute;
+    width: 188px;
+    bottom: 0;
+    border: 1px solid #fde588;
+    background: #ffc
+}
+
+.warnList .box-login p {
+    margin: 0;
+    padding: 8px 10px 6px 10px;
+    _padding: 9px 10px 5px 10px;
+    background: none;
+    color: #333;
+    font-size: 14px
+}
+
+.box-loginhelp {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    background: url(http://img1.kaixin001.com.cn/i/qmark.gif) no-repeat
+}
+
+.errorList .spaw {
+    display: block;
+    width: 13px;
+    height: 7px;
+    position: absolute;
+    background: url(http://img1.kaixin001.com.cn/i/spawd_pink.gif) no-repeat;
+    left: 12px;
+    bottom: -6px;
+    _bottom: -13px;
+    z-index: 101
+}
+
+.updateNews {
+    width: 698px;
+    height: 128px;
+    border: 1px solid #eee;
+    background: #fbfbfb;
+    font-size: 14px;
+    margin-top: 17px
+}
+
+.custom-placeholder {
+    position: absolute;
+    top: 4px;
+    _top: 6px;
+    left: 3px;
+    color: #cccccc;
+    font-size: 12px
+}
+
+.game_recom {
+    padding: 18px 0 19px;
+    overflow: auto;
+    zoom: 1
+}
+
+.game_recom dl {
+    float: left;
+    width: 156px;
+    height: 228px;
+    margin-left: 10px
+}
+
+.game_recom dl dt {
+    margin-bottom: 6px;
+    border: 1px solid #e3e3e3
+}
+
+.game_recom dl dd {
+    border: 1px solid #e3e3e3
+}
+
+.headGameCenter {
+    float: right;
+    height: 40px;
+    position: relative
+}
+
+.headGameCenter .headLink b {
+    padding: 12px 20px 13px;
+    *margin-right: -6px;
+    _margin-right: -3px
+}
+
+.headGameList {
+    position: absolute;
+    top: 39px;
+    right: 0;
+    width: 599px;
+    padding-top: 14px;
+    padding-bottom: 6px;
+    background: #fff;
+    border: 1px solid #d6d6d6
+}
+
+.headGameList a {
+    color: #333
+}
+
+.headGameList dl {
+    float: left;
+    margin-left: 7px;
+    display: inline;
+    zoom: 1
+}
+
+.headGameList dl dt {
+    padding: 0 9px;
+    height: 24px;
+    line-height: 24px;
+    _display: inline;
+    color: #333
+}
+
+.headGameList dl dd {
+    _float: left;
+    overflow: hidden;
+    zoom: 1;
+    border-top: 1px solid #d6d6d6
+}
+
+.headGameList .gameItem {
+    float: left;
+    width: 85px;
+    padding-left: 9px;
+    line-height: 23px
+}
+
+.headGameList .gameItem p {
+    height: 23px;
+    line-height: 23px
+}
+
+.headGameList .gameItem a {
+    text-decoration: none;
+    zoom: 1
+}
+
+.headGameList .gameItem a.cr {
+    color: #f00
+}
+
+.headGameList .gameItem a.cl {
+    color: #3c0
+}
+
+.rh,
+.gn {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(http://img1.kaixin001.com.cn/i3/game/new/grade.gif);
+    overflow: hidden;
+    _margin-top: 4px
+}
+
+.rh {
+    background-position: 0 0
+}
+
+.gn {
+    background-position: 0 -10px
+}
+
+.gameFocusBanner {
+    border: 1px solid #e3e3e3;
+    padding: 4px;
+    overflow: hidden;
+    zoom: 1
+}
+
+.gameFocusBanner .focusBox {
+    width: 814px;
+    height: 270px
+}
