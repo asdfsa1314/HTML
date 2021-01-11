@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:Verdana,Arial,Helvetica,sans-serif,"宋体";
+	line-height:20px;
+	font-size:12px;
+}
+
+li {
+    list-style: none;
+}
+
+a img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2b62a5;
+}
+
+/*网页主体、底部、顶部的通用样式设计*/
+#container, #footer, #header {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header {
+    height:50px;
+    background: linear-gradient(to bottom, #d01d3b, #d3617a);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#menu{
+    float: right;
+    color: #dbb9b9;
+    padding: 15px 30px 0 0;
+}
+
+#menu a{
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+#menu a:hover{
+	transform:scale(3);
+	-webkit-transform:scale(3);	
+	-moz-transform:scale(3);
+	-o-transform:scale(3);
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/*网页游戏页面样式*/
+#gameLogo {
+    float: left;
+    padding-top: 5px;
+}
+
+.gameIndex {
+    background: url(images/btn-01.gif) 0 0 no-repeat;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.gameIndex a,.gameIndex a:hover {
+    font-size: 14px;
+    color: #cb3333;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+
+

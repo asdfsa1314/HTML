@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:Verdana,Arial,Helvetica,sans-serif,"宋体";
+	line-height:20px;
+	font-size:12px;
+}
+
+li {
+    list-style: none;
+}
+
+a img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2b62a5;
+}
+
+/*网页主体、底部、顶部的通用样式设计*/
+#container, #footer, #header {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header {
+    height:50px;
+    background: linear-gradient(to bottom, #d01d3b, #d3617a);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#menu{
+    float: right;
+    color: #dbb9b9;
+    padding: 15px 30px 0 0;
+}
+
+#menu a{
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+#menu a:hover{
+	transform:scale(3);
+	-webkit-transform:scale(3);	
+	-moz-transform:scale(3);
+	-o-transform:scale(3);
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/*网页游戏页面样式*/
+#gameLogo {
+    float: left;
+    padding-top: 5px;
+}
+
+.gameIndex {
+    background: url(images/btn-01.gif) 0 0 no-repeat;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.gameIndex a,.gameIndex a:hover {
+    font-size: 14px;
+    color: #cb3333;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.gameLeft {
+    float: left;
+    width: 724px;
+    overflow: hidden;
+}
+
+.firstLine {
+    margin-bottom: 20px;
+}
+
+.gameNav {
+    float: left;
+    border: 1px #cccccc solid;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 190px;
+}
+
+.gameNav li {
+    background: linear-gradient(to bottom, #ffffff, #f8f8f8, #e8e8e8, #eaeaea, #f1eff0);
+    line-height: 30px;
+}
+
+.gameNav li img {
+    padding: 0 10px 0 8px;
+    vertical-align: middle;
+}
+
+.gameNav li a {
+    color: #000000;
+    display: block;
+    width: 190px;
+    height: 27px;
+    padding-top: 2px;
+    background: url("images/rightA.png") 170px center no-repeat;
+}
+
+.gameNav li:hover {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #ed9774, #e98b67, #e17b53, #db683c, #d75e31, #d0501f, #cf4916);
+}
+
+.gameAdver {
+    float: right;
+    overflow: hidden;
+    width: 520px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.gameAdver img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.code {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+.code li {
+    float: left;
+    padding: 0 6px;
+    background: rgba(204, 204, 204, 0.98);
+    margin: 4px;
+    border-radius: 50%;
+}
+
+.code .active {
+    background: rgba(184, 26, 21, 0.98);
+}
+
+.code .active a {
+    color: #fff;
+}
+
+.code li a {
+    color: #000;
+}
+
+.allGame {
+    padding: 20px;
+    border-bottom: 1px #cccccc solid;
+    border-radius: 8px;
+    width: 672px;
+    overflow: hidden;
+}
+
+.allGame li {
+    width: 320px;
+    height: 130px;
+    overflow: hidden;
+    border: 1px #cccccc solid;
+    border-radius: 8px;
+    float: left;
+    margin-left: 8px;
+    padding: 10px 0;
+}
+
+.allGame li .img {
+    float: left;
+    width: 128px;
+    box-sizing: border-box;
+    margin: 10px 10px 0 8px;
+}
+
+.allGame li .img img {
+    width: 100%;
+}
+
+.allGame li .list {
+    float: right;
+    width: 174px;
+}
+
+.allGame p {
+    line-height: 22px;
+}
+
+.allGame span {
+    color: #a70a0a;
+}
+
+.playBtn {
+    margin-top: 4px;
+}
+
+.playBtn a {
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    padding: 0 10px;
+    border: 1px solid #c7c9cf;
+    border-radius: 4px;
+    color: #333333;
+}
+
+.playBtn .active {
+    background: linear-gradient(to bottom, #87c9d9, #69b2c8, #5b9dbc, #4a87ac, #3e74a2, #396f9e, #366b9b);
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #326598;
+    margin-left: 4px;
+}
+
+.role {
+    width: 680px;
+    overflow: hidden;
+    clear: both;
+    margin: 15px auto 0;
+}
+
+.role li {
+    float: left;
+    width: 170px;
+    text-align: center;
+    height: 190px;
+    overflow: hidden;
+}
+/*
+.role h1 {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.role h1 a, .role h1 a:hover {
+    color: #a70a0a;
+}
+*/
+.role p span {
+    color: #a70a0a;
+}
+
+.gameBorder {
+    border: 1px #cccccc solid;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.gameTitle {
+    background: linear-gradient(to bottom, #fafafa, #f8f7f9, #f6f7f6, #f5f4f4, #f3f4f3, #f1f2f1, #eeefef);
+    border-bottom: 1px solid #e3e3e3;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.gameTitle dt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #7d0808;
+    padding-left: 10px;
+    padding-right: 30px;
+    line-height: 28px;
+    float: left;
+}
+
+.gameTitle dd {
+    float: left;
+    color: #cccccc;
+    padding: 0px 5px;
+    line-height: 28px;
+}
+
+.gameTitle dd a {
+    color: #666666;
+    font-size: 14px;
+}
+
+
+
+
+
