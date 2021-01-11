@@ -1,0 +1,46 @@
+var topPictureConf = {
+  smallImg: [{
+      img: 'https://n.7k7kimg.cn/uploads/gameimg/201811/6f9ca.jpg',
+      href: 'http://news.7k7k.com/tzyx/?dttj'
+    },
+    {
+      img: 'https://n.7k7kimg.cn/uploads/gameimg/201811/f64c6.jpg',
+      href: 'http://web.7k7k.com/games/cqsj/dblt/dblt-lt1.html?k=2'
+    },
+    {
+      img: 'https://n.7k7kimg.cn/uploads/gameimg/201811/c40d8.jpg',
+      href: 'http://news.7k7k.com/pkt/?dttj'
+    },
+    {
+      img: 'https://n.7k7kimg.cn/uploads/gameimg/201811/862a3.jpg',
+      href: 'http://web.7k7k.com/games/ms/dblt/dblt-lt1.html?k=5'
+    },
+    {
+      img: 'https://n.7k7kimg.cn/uploads/gameimg/201811/2bba6.jpg',
+      href: 'http://news.7k7k.com/mnsj/?dttj'
+    },
+    {
+      img: 'https://n.7k7kimg.cn/uploads/gameimg/201811/1f62c.jpg',
+      href: 'http://web.7k7k.com/games/lycq/dblt/dblt-lt1.html?k=1'
+    },
+    {
+      img: 'https://n.7k7kimg.cn/uploads/gameimg/201811/df88e.jpg',
+      href: 'http://news.7k7k.com/wmpy/?dttj'
+    },
+    {
+      img: 'https://n.7k7kimg.cn/uploads/gameimg/201811/7fa3f.jpg',
+      href: 'http://web.7k7k.com/games/xmry/dblt/dblt-lt1.html?k=1'
+    }
+  ],
+  bigImg: [
+    'https://n.7k7kimg.cn/uploads/gameimg/201811/098c6.jpg',
+    'https://n.7k7kimg.cn/uploads/gameimg/201811/fd051.jpg',
+    'https://n.7k7kimg.cn/uploads/gameimg/201811/dda71.jpg',
+    'https://n.7k7kimg.cn/uploads/gameimg/201811/fc86e.jpg',
+    'https://n.7k7kimg.cn/uploads/gameimg/201811/d0adc.jpg',
+    'https://n.7k7kimg.cn/uploads/gameimg/201811/d3e91.jpg',
+    'https://n.7k7kimg.cn/uploads/gameimg/201811/792e4.jpg',
+    'https://n.7k7kimg.cn/uploads/gameimg/201811/7ba20.jpg',
+  ],
+  size: 8
+}

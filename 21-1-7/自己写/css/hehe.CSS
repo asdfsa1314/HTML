@@ -1,0 +1,233 @@
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+    line-height: 20px;
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+}
+
+a img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2b62a5;
+}
+
+
+/*网页主体、底部、顶部的通用样式设计*/
+
+#container,
+#footer,
+#header {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* 顶部的设计 */
+
+#header {
+    height: 50px;
+    background: linear-gradient(to bottom, #d01d3b, #d3617a);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+/* 顶部右边菜单的设计 */
+
+#menu {
+    float: right;
+    color: #dbb9b9;
+    padding: 15px 30px 0 0;
+}
+
+#menu a {
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+#menu a:hover {
+    transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* 顶部网页LoGo样式 */
+
+#gameLogo {
+    float: left;
+    padding-top: 5px;
+}
+
+
+/*  顶部的首页样式 */
+
+.gameIndex {
+    background: url(../images/btn-01.gif) 0 0 no-repeat;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.gameIndex a,
+.gameIndex a:hover {
+    font-size: 14px;
+    color: #cb3333;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#footer a {
+    padding: 5px;
+    clear: both;
+    text-align: right;
+    color: #666666;
+}
+
+.gameLeft {
+    /* 向左浮动 */
+    float: left;
+    /* 宽度为724px */
+    width: 724px;
+    /* CSS属性 overflow 定义当一个元素的内容太大而无法适应 块级格式化上下文 时候该做什么。 */
+    overflow: hidden;
+}
+
+.firstLine {
+    /* 下边距为20像素点 */
+    margin-bottom: 20px;
+}
+
+.gameNav {
+    /* 浮动向左浮动 */
+    float: left;
+    /* 边距的样式:大小 \ 颜色 \ 表现形式为固体 */
+    border: 1px #cccccc solid;
+    /* 边角是否存在锐化的情况 */
+    border-radius: 8px;
+    /* 如果内容过多了,就是隐藏的状态 */
+    overflow: hidden;
+    /* 宽度为190px */
+    width: 190px;
+}
+
+.gameNav li {
+    /* 背景颜色设置 */
+    background: linear-gradient(to bottom, #ffffff, #f8f8f8, #e8e8e8, #eaeaea, #f1eff0);
+    /* 这个li的每一行的高度为30像素点 */
+    line-height: 30px;
+}
+
+.gameNav li img {
+    /* 内边距上下都是0像素点,左边是10像素点,右边是8像素点 */
+    padding: 0 10px 0 8px;
+    /* 设置行类元素的对齐是居中对齐___ */
+    vertical-align: middle;
+}
+
+.gameNav li a {
+    /* 字体颜色为黑色 */
+    color: #000000;
+    /* 播放方式为块级元素 */
+    display: block;
+    /* 这个a元素的宽度 */
+    width: 190px;
+    /* 这个a元素的高度 */
+    height: 27px;
+    /* 内边距的上部为2个像素点 */
+    padding-top: 2px;
+    /* 背景图片 居中并且不重复 图片大小为170px */
+    background: url("images/rightA.png") 170px center no-repeat;
+}
+
+.gameNav li:hover {
+    /* 字体颜色为白色 */
+    color: #fff;
+    /* 文本是没有装饰的 */
+    text-decoration: none;
+    background: linear-gradient(to right, #ed9774, #e98b67, #e17b53, #db683c, #d75e31, #d0501f, #cf4916);
+}
+
+.gameAdver {
+    /* 向右浮动 */
+    float: right;
+    /* 隐藏属性，如果超过显示的界面就隐藏起来 */
+    overflow: hidden;
+    /* 这个的宽度 */
+    width: 520px;
+    /* 采用相对定位 */
+    position: relative;
+    /* 上边距的高度为4个像素点 */
+    margin-top: 4px;
+}
+
+.gameAdver img {
+    /* 宽度为当前父级宽度的100% */
+    width: 100%;
+    /* 四角锐化 */
+    border-radius: 8px;
+}
+
+.code {
+    /* 采用绝对定位 */
+    position: absolute;
+    /* 距离下面有10像素点  */
+    bottom: 10px;
+    /* 距离右边有30像素点  */
+    right: 30px;
+    float: right;
+}
+
+.code li {
+    /* 浮动靠左 */
+    float: left;
+    /* 内边距上下为0像素点 左右为6像素点 */
+    padding: 0 6px;
+    background: rgba(204, 204, 204, 0.98);
+    /* 外边距为4px */
+    margin: 4px;
+    /* 四角锐化 */
+    border-radius: 50%;
+}
+
+
+/* .code .active {
+    background: rgba(184, 26, 21, 0.98);
+}
+
+.code .active a {
+    color: #fff;
+}
+
+.code li a {
+    color: #000;
+} */
