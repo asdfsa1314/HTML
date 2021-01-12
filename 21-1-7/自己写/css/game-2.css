@@ -331,22 +331,29 @@ a {
     height: 26px;
     /* a元素每行的高度 */
     line-height: 26px;
+    /* 还是内联元素 只不过用块级来表示 */
     display: inline-block;
+    /* 内边距上下都是0像素点 左右为10像素点 */
     padding: 0 10px;
+    /* 边距是一个像素点 固体状态 */
     border: 1px solid #c7c9cf;
+    /* 降低锐化四角 */
     border-radius: 4px;
+    /* 字体颜色为黑色 */
     color: #333333;
 }
 
 .playBtn .active {
     background: linear-gradient(to bottom, #87c9d9, #69b2c8, #5b9dbc, #4a87ac, #3e74a2, #396f9e, #366b9b);
     color: #fff;
+    /* 字体是否为加重 */
     font-weight: bold;
     border: 1px solid #326598;
     margin-left: 4px;
 }
 
 .role {
+    /* 宽度为680像素点 */
     width: 680px;
     overflow: hidden;
     clear: both;
@@ -452,6 +459,7 @@ a {
     background: url(images/btnLogin.jpg) 0 0 no-repeat;
     width: 63px;
     height: 24px;
+    /* cursor CSS 属性设置光标的类型（如果有），在鼠标指针悬停在元素上时显示相应样式。 */
     cursor: pointer;
     border: 0;
     margin-left: 80px;

@@ -166,7 +166,7 @@ a {
     /* 内边距的上部为2个像素点 */
     padding-top: 2px;
     /* 背景图片 居中并且不重复 图片大小为170px */
-    background: url("images/rightA.png") 170px center no-repeat;
+    background: url("../img/rightA.png") 170px center no-repeat;
 }
 
 .gameNav li:hover {
@@ -195,6 +195,7 @@ a {
     width: 100%;
     /* 四角锐化 */
     border-radius: 8px;
+    border: 1px #cf4916 solid;
 }
 
 .code {
@@ -219,8 +220,7 @@ a {
     border-radius: 50%;
 }
 
-
-/* .code .active {
+.code .active {
     background: rgba(184, 26, 21, 0.98);
 }
 
@@ -230,4 +230,4 @@ a {
 
 .code li a {
     color: #000;
-} */
+}
