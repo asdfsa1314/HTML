@@ -231,3 +231,168 @@ a {
 .code li a {
     color: #000;
 }
+
+
+.allGame {
+    /* 四边的边距为20像素点 */
+    padding: 20px;
+    /* 下边界 为一个像素点的白色固体 */
+    border-bottom: 1px #cccccc solid;
+    /* 四边角锐化了 */
+    border-radius: 8px;
+    /* 宽度为672像素点 */
+    width: 672px;
+    /* 如果超出盒子范围就设置隐藏模式 */
+    overflow: hidden;
+}
+
+.allGame li {
+    /* 宽度为320像素点 */
+    width: 320px;
+    /* 高度为130像素点 */
+    height: 130px;
+    /* 超出盒子范围的东西都隐藏了 */
+    overflow: hidden;
+    /* 边界 一个像素 白色 固体形状 */
+    border: 1px #cccccc solid;
+    /* 四边锐角锐化 */
+    border-radius: 8px;
+    /* 浮动靠左 */
+    float: left;
+    /* 左外边距为8像素点 */
+    margin-left: 8px;
+    /* 上下的内边距都是10像素点 左右边距是0像素点 */
+    padding: 10px 0;
+}
+
+.allGame li .img {
+    /* 浮动方式是靠左 */
+    float: left;
+    /* 宽度为128px */
+    width: 128px;
+    /* 表示内联边界是永远包含在大盒子里面的 */
+    box-sizing: border-box;
+    /* margin上为10像素点 下边位0像素点 左边为8像素点 右边为10像素点 */
+    margin: 10px 10px 0 8px;
+}
+
+.allGame li .img img {
+    /* 宽度为100% */
+    width: 100%;
+}
+
+.allGame li .list {
+    /* 浮动向右并且 宽度为174像素点 */
+    float: right;
+    width: 174px;
+}
+
+.allGame p {
+    /* 每行的高度为22像素点 */
+    line-height: 22px;
+}
+
+.allGame span {
+    /* 字体颜色为红色 */
+    color: #a70a0a;
+}
+
+.playBtn {
+    /* 外边距顶部为4像素点 */
+    margin-top: 4px;
+}
+
+.playBtn a {
+    /* a元素块的高度 */
+    height: 26px;
+    /* a元素每行的高度 */
+    line-height: 26px;
+    /* 还是内联元素 只不过用块级来表示 */
+    display: inline-block;
+    /* 内边距上下都是0像素点 左右为10像素点 */
+    padding: 0 10px;
+    /* 边距是一个像素点 固体状态 */
+    border: 1px solid #c7c9cf;
+    /* 降低锐化四角 */
+    border-radius: 4px;
+    /* 字体颜色为黑色 */
+    color: #333333;
+}
+
+.playBtn .active {
+    background: linear-gradient(to bottom, #87c9d9, #69b2c8, #5b9dbc, #4a87ac, #3e74a2, #396f9e, #366b9b);
+    color: #fff;
+    /* 字体是否为加重 */
+    font-weight: bold;
+    border: 1px solid #326598;
+    margin-left: 4px;
+}
+
+.role {
+    /* 宽度为680像素点 */
+    width: 680px;
+    overflow: hidden;
+    clear: both;
+    margin: 15px auto 0;
+}
+
+.role li {
+    float: left;
+    width: 170px;
+    text-align: center;
+    height: 190px;
+    overflow: hidden;
+}
+
+
+/*
+.role h1 {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.role h1 a, .role h1 a:hover {
+    color: #a70a0a;
+}
+*/
+
+.role p span {
+    color: #a70a0a;
+}
+
+.gameBorder {
+    border: 1px #cccccc solid;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.gameTitle {
+    background: linear-gradient(to bottom, #fafafa, #f8f7f9, #f6f7f6, #f5f4f4, #f3f4f3, #f1f2f1, #eeefef);
+    border-bottom: 1px solid #e3e3e3;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.gameTitle dt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #7d0808;
+    padding-left: 10px;
+    padding-right: 30px;
+    line-height: 28px;
+    float: left;
+}
+
+.gameTitle dd {
+    float: left;
+    color: #cccccc;
+    padding: 0px 5px;
+    line-height: 28px;
+}
+
+.gameTitle dd a {
+    color: #666666;
+    font-size: 14px;
+}
