@@ -113,7 +113,7 @@ a {
 
 .gameIndex {
     /* 背景图片为不重复 */
-    background: url(images/btn-01.gif) 0 0 no-repeat;
+    background: url(../asdfsa/btn-01.gif) 0 0 no-repeat;
     /* 右边菜单 */
     width: 100px;
     height: 40px;
@@ -193,7 +193,7 @@ a {
     /* 内边距的上部为2个像素点 */
     padding-top: 2px;
     /* 背景图片 居中并且不重复 图片大小为170px */
-    background: url("images/rightA.png") 170px center no-repeat;
+    background: url("../images/rightA.png") 170px center no-repeat;
 }
 
 .gameNav li:hover {
@@ -456,7 +456,7 @@ a {
 }
 
 .gameLogin .login {
-    background: url(images/btnLogin.jpg) 0 0 no-repeat;
+    background: url(../asdfsa/btnLogin.jpg) 0 0 no-repeat;
     width: 63px;
     height: 24px;
     /* cursor CSS 属性设置光标的类型（如果有），在鼠标指针悬停在元素上时显示相应样式。 */
@@ -482,7 +482,7 @@ a {
 .news li {
     border-bottom: 1px #cccccc dashed;
     height: 27px;
-    background: url(../images/rightTwo.png) 8px center no-repeat;
+    background: url(../asdfsa/rightTwo.png) 8px center no-repeat;
     padding-left: 45px;
     line-height: 27px;
     /*制作过渡动画*/
