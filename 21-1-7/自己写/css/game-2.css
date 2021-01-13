@@ -545,9 +545,14 @@ a {
     float: left;
 }
 
-#footer a {
+#footer {
     padding: 5px;
     clear: both;
     text-align: right;
     color: #666666;
+}
+
+#footer a {
+    padding-right: 15px;
+    float: left;
 }
