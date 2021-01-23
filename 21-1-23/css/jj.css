@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    height: 50px;
+    background-color: brown;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#container, #footer, #header{
+    width: 1000px;
+    /* 上下边界是为0的，左右边界是一致的 */
+    margin: 0 auto;
+    /* 清洁周围浮动 */
+    clear: both;
+    overflow: hidden;
+}
+.GameLoge{
+    /* 浮动向左 边距右边5px */
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.GameIndex span{
+    
+    /* 图片的大小 重复的形式 */
+    /* background-image: url(../img/btn-01.gif) no-repeat; */
+    /* width:100px;
+    height:40px;
+    position: relative;
+  
+    left: 20px;
+    top: 10px; */
+}
